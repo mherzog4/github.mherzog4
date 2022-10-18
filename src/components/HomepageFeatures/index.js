@@ -8,13 +8,15 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        I recently graduated from Flatiron School's Software Engineering Bootcamp.
+ <br></br>
+<br></br>
+      During my time at the program I worked with React, Ruby on Rails, Firebase, and other technologies.
       </>
     ),
   },
   {
-    title: '2 years of sales development expeience',
+    title: '2 Years of Sales Development Expeience',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
@@ -31,8 +33,10 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        I am not new to fast pace enviroment and working with cross-functional teams.
+        <br></br>
+        <br></br>
+        
       </>
     ),
   },

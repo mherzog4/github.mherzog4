@@ -8,10 +8,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Hey There👋🏻',
   tagline: 'My name is Matt Herzog and I am a software engineer',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://mattherzog.me',
   baseUrl: '/',
   onBrokenLinks: 'ignore',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenMarkdownLinks: 'ignore',
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
@@ -56,72 +56,66 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      
       navbar: {
-        title: 'My Site',
+        title: 'My Digital Garden',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
+
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {
-            type: 'doc',
-            docId: 'intro',
+            to: '/docs/projects',
             position: 'left',
             label: 'Projects',
+            
           },
+          {to: '/docs/learning',
+          label: 'What I am learning', 
+          position: 'left'
+         },
           {to: '/blog',
            label: 'Blog', 
-           position: 'left'},
-           {to: '/content',
+           position: 'left'
+          },
+           {to: '/docs/content',
            label: 'Technical Content', 
-           position: 'left'},
+           position: 'left'
+          },
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://drive.google.com/file/d/1LvzthROtMG6L7Y2yE6lCREQ1Jz6yKfKw/view?usp=sharing',
+            label: 'Resume',
             position: 'right',
           },
         ],
       },
+      scripts: [
+        'https://twitter.com/MattHerzog5?ref_src=twsrc%5Etfw',
+        {
+          src:
+            'https://platform.twitter.com/widgets.js',
+          async: true,
+        },
+      ],
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Technical Content',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'All of my content',
+                to: '/docs/content',
               },
             ],
           },
           {
-            title: 'Technical Content',
+            title: 'Hire me',
             items: [
               {
-                label: 'Linkedin',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Youtube',
-                href: 'https://www.youtube.com/channel/UCDzCTSF0N2HNG7lBDj22mFw',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/MattHerzog5',
-              },
-              {
-                label: 'TikTok',
-                href: 'https://www.tiktok.com/@mattherzog5',
-              },
-              {
-                label: 'Twitch',
-                href: 'https://www.twitch.tv/mattherzog',
+                label: 'Business website',
+                href: 'https://directsystems.io/',
               },
             ],
           },
@@ -129,8 +123,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Testimonials',
+                href: 'https://testimonial.to/mattherzog-testimonials/all',
               },
               {
                 label: 'GitHub',
@@ -139,7 +133,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Made with ❤️ by Matt Herzog, Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Made by Matt Herzog🚀, Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
@@ -149,3 +143,4 @@ const config = {
 };
 
 module.exports = config;
+

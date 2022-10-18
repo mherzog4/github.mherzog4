@@ -17,8 +17,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="https://calendly.com/mattherzog/quick-chat">
-            Let's chat
+            to="/docs/projects">
+            View my work
           </Link>
         </div>
       </div>
@@ -30,7 +30,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`Matt Herzog `}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>

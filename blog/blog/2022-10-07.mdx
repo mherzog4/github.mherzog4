@@ -1,0 +1,177 @@
+---
+slug: sql-vs-nosql
+title: SQL Databases vs NoSQL Databases
+authors:
+  - name: Matt Herzog
+    title: Software Engineer
+    url: https://linkedin.com/mattherzog3
+    image_url: https://github.com/mherzog4.png
+tags: [Databases, Back-end, SQL, NoSQL]
+---
+**Issue #06: SQL Databases vs NoSQL Databases**Oct 7, 2022
+
+Agenda:
+
+Discuss what a database is and how they are useful
+
+Define what a Database Management System is
+
+The advantages/disadvantages of choosing a SQL database
+
+Explore different the different types of NoSQL databases
+
+The advantages/disadvantages of choosing a NoSQL database
+
+SQL vs NoSQL trade-offs cheatsheet
+
+Let’s jump in.
+
+What is a database?
+A database is an organized collection of structured information or data.
+
+A database is usually controlled by a database management system (DBMS).
+
+Together, the data and the DBMS, along with the applications that are associated with them, are referred to as a database.
+
+In the 1980s, relational databases became popular and more recently, NoSQL databases have come about as a response to the growth of the internet and the need for faster speed and processing of unstructured data.
+
+What is a database management system (DBMS)?
+A database typically requires a database software program known as a database management system (DBMS).
+
+A DBMS serves as an interface between the database and its end users or programs, allowing users to retrieve, update, and manage how the information is organized and optimized.
+
+A DBMS also facilitates oversight and control of databases, enabling various administrative operations such as performance monitoring, tuning, and backup and recovery.
+
+Some examples of popular database software or DBMSs include MySQL, Microsoft Access, SQLite, Postgres, and Oracle Database.
+
+SQL Databases
+SQL (which stands for Standard Query Language) is a programming language used by nearly all relational databases to query, manipulate, and define data, and to provide access control.
+
+SQL was first developed in the 1970s with Oracle as a major contributor, which led to the implementation of the SQL ANSI standard.
+
+What are the advantages of using an SQL RDBMS?
+Powerful query language
+The SQL language is well known, with many functions and concise syntax. Simple commands can be learned quickly.
+
+Optimized for large numbers of table rows
+Tables can hold millions of rows of data, and still, maintain fast performance. SQL databases are optimized to hold and search through large amounts of data, and indexes can be used to speed up the search and retrieval of rows.
+
+Can handle large numbers of transactions in a single query
+The query language is powerful enough to carry out several commands in one query and queries can be nested inside each other.
+
+Many different choices of databases, and wide support
+Having been around for many years, and being widely used in many enterprise applications, there is a wide range of community and enterprise support for SQL databases.
+
+Fast for searching and querying data
+With support for indexes and lots of other optimizations, SQL databases are the fastest for carrying out searches of data over a single table.
+
+Fast for retrieving data from multiple tables
+Due to foreign keys and the maintaining of referential integrity between tables, SQL databases can retrieve data across several tables quickly.
+
+The SQL language also has good support for this using JOINS.
+
+High availability and consistency of data
+As the majority of SQL databases are very mature and run on a single server, it means that they are highly available and data is always consistent as there is no need to synchronize data over many servers.
+
+What are the Disadvantages of using an SQL RDBMS?
+Predefined and inflexible data model
+Data migration can be an issue with SQL databases.
+
+Every time you want to add a new column or delete one every row of the table is affected.
+
+If you start updating foreign keys then maintaining the referential integrity of data can be a nightmare.
+
+Can be difficult to convert data from Objects into database tables
+Many languages have support for converting data from an SQL database into Objects that can be used programmatically.
+
+Vertically scalable, can only run on one server so increasing speed means upgrading hardware
+The architecture of SQL databases means that they can generally only be run on one server, so expensive hardware is needed to cope with large amounts of data and high demand.
+
+NoSQL Databases
+NoSQL databases were developed in the late 2000s with a focus on scaling, fast queries, allowing for frequent application changes, and making programming more straightforward for you.
+
+Types of NoSQL databases
+There are four major types of NoSQL databases: document databases, key-value databases, wide-column stores, and graph databases.
+
+Document databases
+Document databases store data in documents similar to JSON (JavaScript Object Notation) objects.
+
+Each document contains pairs of fields and values.
+
+The values can typically be a variety of types including things like strings, numbers, booleans, arrays, or objects.
+
+Key-value databases
+Key-value databases are a simpler type of database where each item contains keys and values.
+
+Wide-column stores
+
+Wide-Column stores store data in tables, rows, and dynamic columns.
+
+Graph databases
+Graph databases store data in nodes and edges.
+
+Nodes typically store information about people, places, and things, while edges store information about the relationships between the nodes.
+
+What are the advantages of NoSQL databases?
+NoSQL databases have flexible data models, scale horizontally, have incredibly fast queries, and are easy for developers to work with.
+
+Flexible data models
+NoSQL databases typically have very flexible schemas.
+
+A flexible schema allows you to easily make changes to your database as requirements change.
+
+You can iterate quickly and continuously integrate new application features to provide value to your users faster.
+
+Horizontal scaling
+Most SQL databases require you to scale up vertically (migrate to a larger, more expensive server) when you exceed the capacity requirements of your current server.
+
+Most NoSQL databases allow you to scale out horizontally, meaning you can add cheaper commodity servers whenever you need to.
+
+Fast queries
+Queries in NoSQL databases can be faster than in SQL databases.
+
+Data in SQL databases are typically normalized, so queries for a single object or entity require you to join data from multiple tables.
+
+As your tables grow in size, the joins can become expensive.
+
+However, data in NoSQL databases are typically stored in a way optimized for queries.
+
+Queries typically do not require joins, so the queries are very fast.
+
+Easy for developers
+Some NoSQL databases map their data structures to those of popular programming languages.
+
+This mapping allows developers to store their data in the same way that they use it in their application code.
+
+This mapping can allow developers to write less code, leading to faster development time and fewer bugs.
+
+What are the disadvantages of NoSQL databases?
+NoSQL databases don’t have the reliability functions that Relational Databases have
+This also means that NoSQL databases offer consistency in performance and scalability.
+
+NoSQL is not compatible with SQL.
+Note: Some NoSQL management systems actually do use a Structured Query Language.
+
+NoSQL is very new compared to Relational Databases, which means that is far less stable and may have a lot fewer functionalities.
+
+Trade-offs between SQL and NoSQL cheat sheet
+
+source
+Action Items
+Try out a NoSQL database like MongoDB or Firebase
+
+Try out a Relational Database management system like MySQL or Postgres
+
+Think through potential blockers that could arise when deciding on which type of database to use for your next project
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSephH4LK7APewJxpbb8_cpns4ldt4-DJClRAXEyqZgXpCwHHg/viewform?embedded=true" width="600" height="484" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+
+<hr></hr>
+
+<a href="https://calendly.com/mattherzog/quick-chat" target="_blank">Let's chat</a>
+<br></br>
+<br></br>
+<a href="https://directsystems.io/" target="_blank">Hire me</a>
+
+
