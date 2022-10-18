@@ -11,8 +11,12 @@ const FeatureList = [
         I recently graduated from Flatiron School's Software Engineering Bootcamp.
  <br></br>
 <br></br>
-      During my time at the program I worked with React, Ruby on Rails, Firebase, and other technologies.
+      During my bootcamp I worked with React, Ruby on Rails, Firebase, and other technologies.
+<br></br>
+<br></br>
+      Visit my <a href='http://mattherzog.me/docs/learning'><b>learning section</b></a> to see what I am learning now.
       </>
+     
     ),
   },
   {
@@ -29,14 +33,15 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Continious learner',
+    title: 'Continious Learner',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        I am not new to fast pace enviroment and working with cross-functional teams.
+      <br></br>
+        Right now, I am currently interviewing with companies and working as an independent software engineer.
         <br></br>
         <br></br>
-        
+        Reach out to <a href='https://calendly.com/mattherzog/business-chat'><b>hire me</b></a> as a full-time employee.
       </>
     ),
   },

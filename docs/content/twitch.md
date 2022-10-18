@@ -10,7 +10,7 @@ sidebar_position: 7
 
 
 <iframe
-    src="https://player.twitch.tv/?channel=mattherzog&parent=localhost&muted=true"
+    src="https://player.twitch.tv/?channel=mattherzog&parent=mattherzog.me&muted=true"
     width="560" height="315"
     allowfullscreen>
 </iframe>
