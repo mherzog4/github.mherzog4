@@ -1,8 +1,27 @@
 ---
 sidebar_position: 1
 tags: [firebase]
+
 ---
 
-# Overview
+# Firebase Blog Technical Deep Dive
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQpxgooYdmwl8e1OOvLxcxVAXHzqWv31OyPTaAXoJhFRiWOOpSlvzF2Bld2xiiqcFpmaNwjWqLECFbL/embed?start=false&loop=false&delayms=3000" frameborder="0" width="365" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+## Agenda
+* ### [Demo](/docs/projects/Firebase%20blog%20application/demo)
+* ### [Problem statement](/docs/projects/Firebase%20blog%20application/problemstatement)
+* ### [Solution](/docs/projects/Firebase%20blog%20application/solution)
+* ###  [Techstack](/docs/projects/Firebase%20blog%20application/techstack)
+* ###  [Visuals](/docs/projects/Firebase%20blog%20application/visuals)
+* ###  [Trade-offs](/docs/projects/Firebase%20blog%20application/tradeoffs)
+* ###  [Troubleshooting](/docs/projects/Firebase%20blog%20application/troubleshooting)
+* ###  [Retrospective](/docs/projects/Firebase%20blog%20application/retrospective)
+
+
+<hr></hr>
+
+<a href="https://calendly.com/mattherzog/quick-chat" target="_blank"><b><u>Let's chat</u></b></a>
+<br></br>
+<br></br>
+<a href="https://directsystems.io/" target="_blank"><b><u>Hire me</u></b></a>

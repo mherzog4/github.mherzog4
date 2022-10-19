@@ -130,6 +130,10 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/mherzog4',
               },
+              {
+                label: 'Sponsor me',
+                href: 'https://github.com/sponsors/mherzog4',
+              },
             ],
           },
         ],

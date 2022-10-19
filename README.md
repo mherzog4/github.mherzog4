@@ -1,41 +1,50 @@
-# Website
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+# Hi, I'm Matt and this is my portfolio website! 👋
 
-### Installation
 
-```
-$ yarn
-```
+## 🚀 About Me
+I recently graduated from Flatiron School's Software Engineering Bootcamp.
 
-### Local Development
+During my bootcamp I worked with React, Ruby on Rails, Firebase, and other technologies.
 
-```
-$ yarn start
-```
+Right now, I am currently interviewing with companies and working as an independent software engineer.
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+Reach out to hire me as a full-time employee.
 
-### Build
+👩‍💻 I'm currently working on building out fullstack projects
 
-```
-$ yarn build
-```
+🧠 I'm currently learning React, Firebase, Supabase, and Node
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+👯‍♀️ I'm looking to collaborate on open source projects
 
-### Deployment
+🤔 I'm looking for help with securing my first software engineering role
 
-Using SSH:
+📫 email me @ mattherzog.me
 
-```
-$ USE_SSH=true yarn deploy
-```
 
-Not using SSH:
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
+## 🛠 Skills
+* HTML
+* CSS
+* Javascript
+* React
+* Node
+* Firebase
+* Supabase
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+
+## Roadmap
+
+* xyz project
+
+* Open source library for a download able portfolio website
+
+
+
+
+## 🔗 Links
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/mattherzog3)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/mattherzog5)
+

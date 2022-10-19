@@ -1,9 +1,7 @@
 ---
 sidebar_position: 2
-tags: [demo]
+tags: [firebase]
+
 ---
 
-# Demo
-
-
-              
+# Firebase Blog Demo
