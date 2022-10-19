@@ -8,11 +8,11 @@ sidebar_position: 2
 ## Check out my latest Linkedin posts here
 
 
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6987806175522082816" height="662" width="455" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6987806175522082816" height="662" width="380" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
 <br></br>
 
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6987490698014908416" height="458" width="455" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6987490698014908416" height="458" width="380" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
 <hr></hr>
 
