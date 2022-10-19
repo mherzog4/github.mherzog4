@@ -1,9 +1,11 @@
-## Node.js
+## Databases
 
-## GraphQL
+## Firebase
 
-## Axios
+## Node
 
 ## Python
 
-Or insert mindmap 
+## Supabase
+
+

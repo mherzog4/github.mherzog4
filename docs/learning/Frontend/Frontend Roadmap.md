@@ -1,12 +1,11 @@
 ---
-tags: [node, frontend]
+tags: [react, frontend, react query]
 ---
 
 # Frontend Roadmap
 
 ## React
-
-## React Query
+ * ### React Query
 
 ## 
 

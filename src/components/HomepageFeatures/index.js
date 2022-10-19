@@ -14,7 +14,7 @@ const FeatureList = [
       During my bootcamp I worked with React, Ruby on Rails, Firebase, and other technologies.
 <br></br>
 <br></br>
-      Visit my <a href='http://mattherzog.me/docs/learning'><b>learning section</b></a> to see what I am learning now.
+      Visit my <a href='http://mattherzog.me/docs/learning'><b><u>learning section</u></b></a> to see what I am learning now.
       </>
      
     ),
@@ -41,7 +41,7 @@ const FeatureList = [
         Right now, I am currently interviewing with companies and working as an independent software engineer.
         <br></br>
         <br></br>
-        Reach out to <a href='https://calendly.com/mattherzog/business-chat'><b>hire me</b></a> as a full-time employee.
+        Reach out to <a href='https://calendly.com/mattherzog/business-chat'><b><u>hire me</u></b></a> as a full-time employee.
       </>
     ),
   },

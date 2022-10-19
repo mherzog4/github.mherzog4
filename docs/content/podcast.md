@@ -5,10 +5,10 @@ sidebar_position: 5
 
 # Podcast
 
-## Check out my latest Linkedin posts here
+## Check out my latest Podcast episodes here
 
 ### Episode 1 - title name
-<iframe src="https://anchor.fm/doubleclick/embed" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://anchor.fm/doubleclick/embed" height="102px" width="390px" frameborder="0" scrolling="no"></iframe>
 
 <hr></hr>
 
