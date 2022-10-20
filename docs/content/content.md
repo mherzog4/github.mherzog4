@@ -5,11 +5,20 @@ sidebar_position: 1
 
 # My technical content creation
 
-Here is where I go into details about the projects I have created.
+This section is to show my technical content.
 
-Click on the sidebar to find the a project and you will be able to see a demo of the project, detailed architecture, a video demo, and a detailed slide deck.
+Click through the sidebar to see my [Podcasts](/docs/content/podcast), [Twitch](/docs/content/twitch) live streams, and [Youtube](/docs/content/youtube/intro) videos where I breakdown topics.
 
-<a href="https://calendly.com/mattherzog/quick-chat" target="_blank">Let's chat</a>
+I post daily on my <b><u>[Linkedin](https://www.linkedin.com/in/mattherzog3/)</u></b> and <b><u>[Twitter](https://twitter.com/mattherzog5)</u></b> so make sure to follow me on those as well.
+
+P.S.
+
+I also write on my blog and you can subscribe to recieve my blogs right in your inbox [here](https://subscribe.mattherzog.me/signup
+).
+
+<hr></hr>
+
+<a href="https://calendly.com/mattherzog/quick-chat" target="_blank"><b><u>Let's chat</u></b></a>
 <br></br>
 <br></br>
-<a href="https://directsystems.io/" target="_blank">Hire me</a>
+<a href="https://directsystems.io/" target="_blank"><b><u>Hire me</u></b></a>

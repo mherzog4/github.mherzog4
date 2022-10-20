@@ -10,8 +10,7 @@ tags: [firebase]
 
 ## Agenda
 * ### [Demo](/docs/projects/Firebase%20blog%20application/demo)
-* ### [Problem statement](/docs/projects/Firebase%20blog%20application/problemstatement)
-* ### [Solution](/docs/projects/Firebase%20blog%20application/solution)
+* ### [Why](/docs/projects/Firebase%20blog%20application/why)
 * ###  [Techstack](/docs/projects/Firebase%20blog%20application/techstack)
 * ###  [Visuals](/docs/projects/Firebase%20blog%20application/visuals)
 * ###  [Trade-offs](/docs/projects/Firebase%20blog%20application/tradeoffs)

@@ -1,10 +1,9 @@
 ---
-sidebar_position: 2
-tags: [firebase]
 
+tags: [react, jsx, frontend]
 ---
 
-# Firebase Blog Demo
+# JSX
 
 <hr></hr>
 

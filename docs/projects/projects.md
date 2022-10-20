@@ -5,14 +5,19 @@ sidebar_position: 1
 
 # Projects Overview
 
-Here is where I go into details about the projects I have created.
+In this section I I go into details about the projects I have created.
 
-Click on the sidebar to find the a project and you will be able to see a demo of the project, detailed architecture, a video demo, and a detailed slide deck.
+In each project overview you will be able to go to the hosted version of the project, detailed architecture, a video demo, and other detailed information.
 
-<a href="https://calendly.com/mattherzog/quick-chat" target="_blank">Let's chat</a>
+## Projects
+* [Firebase Blog Application](docs/projects/Firebase%20blog%20application/projectoverview)
+
+<hr></hr>
+
+<a href="https://calendly.com/mattherzog/quick-chat" target="_blank"><b><u>Let's chat</u></b></a>
 <br></br>
 <br></br>
-<a href="https://directsystems.io/" target="_blank">Hire me</a>
+<a href="https://directsystems.io/" target="_blank"><b><u>Hire me</u></b></a>
 
 <!-- 
 

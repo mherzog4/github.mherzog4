@@ -71,8 +71,8 @@ const config = {
             label: 'Projects',
             
           },
-          {to: '/docs/learning',
-          label: 'What I am learning', 
+          {to: '/docs/notebook',
+          label: 'Notebook', 
           position: 'left'
          },
           {to: '/blog',
@@ -80,7 +80,7 @@ const config = {
            position: 'left'
           },
            {to: '/docs/content',
-           label: 'Technical Content', 
+           label: 'Content', 
            position: 'left'
           },
           {

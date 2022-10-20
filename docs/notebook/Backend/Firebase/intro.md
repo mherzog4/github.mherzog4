@@ -1,10 +1,8 @@
 ---
-sidebar_position: 2
-tags: [firebase]
-
+sidebar_position: 1
 ---
 
-# Firebase Blog Demo
+# Firebase Roadmap
 
 <hr></hr>
 
