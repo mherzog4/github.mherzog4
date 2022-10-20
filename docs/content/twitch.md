@@ -11,15 +11,10 @@ Follow me on Twitch to see live streams of me coding, solving leetcode problems,
 
 <iframe
     src="https://player.twitch.tv/?channel=mattherzog&parent=mattherzog.me&muted=true"
-    width="350" height="315"
+    width="345" height="315"
     allowfullscreen>
 </iframe>
 
 <hr></hr>
 
-<hr></hr>
-
-<a href="https://calendly.com/mattherzog/quick-chat" target="_blank"><b><u>Let's chat</u></b></a>
-<br></br>
-<br></br>
-<a href="https://directsystems.io/" target="_blank"><b><u>Hire me</u></b></a>
+<a href="https://calendly.com/mattherzog/business-chat" target="_blank"><b><u>Hire me</u></b></a>

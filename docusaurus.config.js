@@ -114,8 +114,8 @@ const config = {
             title: 'Hire me',
             items: [
               {
-                label: 'Business website',
-                href: 'https://directsystems.io/',
+                label: "Let's chat",
+                href: 'https://calendly.com/mattherzog/business-chat',
               },
             ],
           },

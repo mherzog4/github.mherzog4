@@ -8,14 +8,10 @@ tags: [Leetcode, video, data structures, algorithms]
 
 Watch how I solve LeetCode Problems.
 ### TwoSum LeetCode Problem Solved in Javascript
-<iframe width="370" height="315" src="https://www.youtube.com/embed/jjT0ShHCUB4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="345" height="315" src="https://www.youtube.com/embed/jjT0ShHCUB4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Palindrome Number LeetCode Problem Solved in Javascript
-<iframe width="370" height="315" src="https://www.youtube.com/embed/3GYLxq5n_iE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="345" height="315" src="https://www.youtube.com/embed/3GYLxq5n_iE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <hr></hr>
-
-<a href="https://calendly.com/mattherzog/quick-chat" target="_blank"><b><u>Let's chat</u></b></a>
-<br></br>
-<br></br>
-<a href="https://directsystems.io/" target="_blank"><b><u>Hire me</u></b></a>
+<a href="https://calendly.com/mattherzog/business-chat" target="_blank"><b><u>Hire me</u></b></a>

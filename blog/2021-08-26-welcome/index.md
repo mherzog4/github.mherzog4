@@ -15,10 +15,8 @@ Follow along and enjoy the ride🚀
 
 <hr></hr>
 
-<a href="https://calendly.com/mattherzog/quick-chat" target="_blank">Let's chat</a>
-<br></br>
-<br></br>
-<a href="https://directsystems.io/" target="_blank">Hire me</a>
+<a href="https://calendly.com/mattherzog/business-chat" target="_blank"><b><u>Hire me</u></b></a>
+
 
 <!-- 
 [Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).
