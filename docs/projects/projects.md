@@ -10,7 +10,7 @@ In this section I I go into details about the projects I have created.
 In each project overview you will be able to go to the hosted version of the project, detailed architecture, a video demo, and other detailed information.
 
 ## Projects
-* [Firebase Blog Application](docs/projects/Firebase%20blog%20application/projectoverview)
+* [Firebase Blog Application](/docs/projects/Firebase%20blog%20application/projectoverview)
 
 <hr></hr>
 
