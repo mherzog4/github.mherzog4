@@ -33,7 +33,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Continious Learner',
+    title: 'Continuous Learner',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
