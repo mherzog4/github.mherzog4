@@ -41,7 +41,14 @@ const FeatureList = [
         Right now, I am currently interviewing with companies and working on contracted jobs as an independent software engineer.
         <br></br>
         <br></br>
-        I am looking for full-time employment so feel free to <a href='https://calendly.com/mattherzog/business-chat'><b><u>reach out</u></b></a> to connect
+        I am looking for full-time employment so feel free to <a href='https://calendly.com/mattherzog/business-chat'><b><u>book a time</u></b></a> to connect, or you can
+        <a href="mailto:matt@mattherzog.me?&body=Hey there! 
+        
+        Thanks for wanting to shoot me over a message.
+        
+        For employment opportunities I am looking for a role that is in person/hybrid in or near Tampa, Florida or a fully remote position.
+        
+        Looking forward to chatting with you." target="_blank"><b><u> send me an email</u></b></a> 
       </>
     ),
   },

@@ -118,6 +118,10 @@ const config = {
                 label: "Let's chat",
                 href: 'https://calendly.com/mattherzog/business-chat',
               },
+              {
+                label: "Send me a message",
+                href: "mailto:matt@mattherzog.me",
+              },
             ],
           },
           {

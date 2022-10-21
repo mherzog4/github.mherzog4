@@ -13,3 +13,4 @@ sidebar_position: 1
 <a href="https://calendly.com/mattherzog/quick-chat" target="_blank"><b><u>Hire me</u></b></a>
 <br></br>
 <br></br>
+<a href="mailto:matt@mattherzog.me" target="_blank"><b><u>Send me a message</u></b></a>
