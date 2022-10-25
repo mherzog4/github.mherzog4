@@ -38,7 +38,7 @@ const FeatureList = [
     description: (
       <>
       <br></br>
-        Right now, I am currently interviewing with companies and working on contracted jobs as an independent software engineer.
+        I am currently interviewing with companies and working on contracted jobs as an independent software engineer.
         <br></br>
         <br></br>
         I am looking for full-time employment so feel free to <a href='https://calendly.com/mattherzog/business-chat'><b><u>book a time</u></b></a> to connect, or you can
