@@ -20,7 +20,7 @@ const FeatureList = [
     ),
   },
   {
-    title: '2 Years of Sales Development Expeience',
+    title: '2 Years of Sales Development Experience',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
