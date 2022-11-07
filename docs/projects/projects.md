@@ -5,7 +5,7 @@ sidebar_position: 1
 
 # Projects Overview
 
-In this section I I go into details about the projects I have created.
+In this section I go into details about the projects I have created.
 
 In each project overview you will be able to go to the hosted version of the project, detailed architecture, a video demo, and other detailed information.
 
