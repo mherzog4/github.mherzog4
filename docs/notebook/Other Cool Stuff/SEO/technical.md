@@ -1,0 +1,1 @@
+navigation, loading speed, mobile friendly
