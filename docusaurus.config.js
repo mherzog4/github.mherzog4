@@ -59,7 +59,7 @@ const config = {
       {
       
       navbar: {
-        title: 'My Digital Garden',
+        title: 'Home',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
