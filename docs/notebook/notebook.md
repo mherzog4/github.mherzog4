@@ -12,9 +12,13 @@ I will have talks, videos, and other visual material to go with my notes.
 
 ## [Backend](/docs/notebook/Backend/Backend%20Roadmap)
 
+## [Book Notes](/docs/notebook/Books/Books%20roadmap.md)
+
 ## [Frontend](/docs/notebook/Frontend/Frontend%20Roadmap)
 
 ## [Other Cool Stuff](/docs/notebook/Other%20Cool%20Stuff/Other%20Cool%20Stuff%20Roadmap)
+
+
 
 <hr></hr>
 
