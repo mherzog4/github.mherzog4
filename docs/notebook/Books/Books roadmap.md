@@ -1,6 +1,7 @@
 Notes on the books I have read:
 
 - The Pragmatic Programmer
+- Eloquent Javascript
 
 What is on my list to read:
 
