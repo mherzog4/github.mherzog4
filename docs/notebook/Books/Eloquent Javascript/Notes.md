@@ -550,4 +550,50 @@ function power(base, exponent) {
 
  # Chapter 4: Data structures: Objects and Arrays
 
- 
+ Numbers, boolenas and astrings are the atoms that data structures are built from
+
+ many types of intofmation require more than one atom thogh
+
+ <mark>Objects allow us to group values-including other objects- to build more complex structures</mark>
+
+The programs we have built so far have been limited by the fact that they were operating only on simple data types.
+
+this chapter will intro basisc data strucutres.
+
+## Data sets
+
+<mark> Javascript provides a data type specifically for storing sequences of values</mark>
+
+<mark>it is a called an array and it written as a list of values between square brakcets, seperated by commas </mark>
+
+```javascript
+let listOfNumbers = [1,2,3,...];
+console.log(listOfNumbers[1]);
+// -> 2
+```
+
+## Properties
+
+weve seen expressions like myString.length and Math.max in the past chapters - these are expressions that access a property of some value
+
+almost all javascript values have properties
+
+the two main ways to access properties in Javascript are with a dot with square brackets
+
+both value.x and value[x] acess a property on the value but not the same property
+
+when using a dot the word after the dot is the literal name of the property 
+
+when using square brakcets, the expression between the brackets is evaluated to get the property name
+
+
+whereas value.x fetches the property of value name "x"
+
+value[x] tries to evaluate the expression x and uses the result, converted to a string as the property name
+
+so if yoou know that the property you are interest in is called color you can say value.color
+
+if you want to extract the property named by the value held in the binding i you say value[i]
+
+property names are strings - they can be any string, but the dot notiation works only with names that look like valid binding names
+
