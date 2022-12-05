@@ -597,3 +597,130 @@ if you want to extract the property named by the value held in the binding i you
 
 property names are strings - they can be any string, but the dot notiation works only with names that look like valid binding names
 
+## Methods
+
+Both string and array objects contain, in addition to the length.property, a number of properties that hold function values
+
+``` javascript
+let doh = "Doh";
+console.log(typeof dog.toUpperCase);
+// -> function
+console.log(doh.toUpperCase());
+// -> DOH
+```
+Every string has a toUpperCase property & when called it will return a copy of the string in which all letters have been converted to upercase.
+
+Properties that contain functions are generally called methods of the value they belong to, as in "toUpperCase is a method of a string"
+
+## Objects
+
+Values of the type object are arbitrary collections of properties
+
+one way to create an object is by using braces as an expression
+
+```javascript
+let day1 = {
+    squirrel: false,
+    events: ["work", "touched tree", "running"]
+};
+console.log(day1.squirrel);
+// -> false
+```
+
+inside the braces there is a list of properties seperatated by cimmas
+
+each property has a name followed bya colon and a value
+
+when an object is writen over multiple lines, indenting it helps with readbaliliteis
+
+The braces have two meanings in Javascript
+
+at the start of a statement, they start a block of statements - in any other position, they describe an object
+
+returning to our tentacle model of bindings-property bindings are similar
+
+they grasp values but other bidnings and properties might be holding onto those same values
+
+you may think o f objects as octopuses with any number of tentancles each of which has a name tattooed on it
+
+to fund out what properties an object has you can use the Object.keys function
+
+## Mutability
+
+the types of values discussed in earlier chapters such as numers, strings and Booleans are all immutable - it is impossible to change values of those types
+
+Objects work differetnyl - you can change their properties causing a single object value to have different content at different times
+
+with objects there is a difference between having two references to the same object and having two different objects that contain the same properties
+
+## The Lycanthropes log
+
+if a porperty name in brace notiations inst followed by a vlaue, its value is taking from the bidning with the same name
+
+``` javascript
+addEntry(["work", "pizza", "running", "television"], false); 
+```
+
+## Array Loops
+
+``` javascript
+ for (let i = 0; i < JOURNDAL.length; i++) {
+    let entry = JOURNDAL[i];
+    //Do something with entry
+ }
+```
+
+this kind of loop is common in classical JS - going over arrays one element at a time is something that comes up a lot
+
+there is a simpler way to write that in modern JS
+
+``` javascript
+for (let entry of JOURNAL) {
+    console.log(`${entry.events.length} events. `);
+}
+```
+
+when a for loop looks like this with the words of after a variable defifintion it will loop over the elements of the value given after of
+
+this works not only for arrays but also for strings and some other data strucutures
+
+## JSON
+
+because properties only graps their value, rather than contain it, onbects and arrays are stored in the computers memory as sequences of bits holding the addresses-the place in memorry =- of their contents
+
+We can serialize the data - that means it is converted into a flat description
+
+a popular serialization format is called JSON
+
+which stands for Javascript Object Notations
+
+It is widely used as a data storgage and communicaation format on the web even in languages other than Javascript
+
+```javascript
+{
+    "squireel" false,
+    "dog" true,
+}
+```
+
+Javascript gives us the functions JSON.stringify and JSON.parse to convert data to and from this format
+
+## SUmmary
+
+Objects and arrays which are a specific king of object provide ways to group several values into a single value
+
+most values in JAvascript have properties, the exception beloning to undefined
+
+properties are accessed using value.prop or value["prop"] 
+
+Objects tend to use names for their properties and stroe more or less a fixed set of them
+
+arrays on the other hand usually contain varting amounts of identival values and uses numbers
+
+there are some named propetires in arrays such as length and other methods
+
+methods are functions that live in properties
+
+You can iterate over arrays using a special kind of for loop
+
+# Chapter 5: Higher Order Functions
