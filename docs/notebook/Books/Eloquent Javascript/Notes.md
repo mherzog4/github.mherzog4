@@ -724,3 +724,271 @@ methods are functions that live in properties
 You can iterate over arrays using a special kind of for loop
 
 # Chapter 5: Higher Order Functions
+
+A large program is a cosstly program and not just because of the time it takes to build 
+
+size almost always involves complexity and complexity confuses programmers
+
+confused prgrammers in turn introduce mistakes/bugs into programs
+
+a lrage program then provides a lot fo space for these bugs to hude, making them hard to find
+
+## Abstraction
+
+<mark>in the context of programming, thesr kinfd of vocabularies are usually called abstractions</mark>
+
+Abstractions hide details and give us the ability to talk about problems are a higher level (Or more abstract level)
+
+It is a useful skill in programming to notice when you are working at a too low level of abstraction
+
+## Higher-order functions
+
+<mark>functions that operate on other functions either by taking tham as arguments or by return them are called higher order functions
+
+Higher order functions allow us to abstract over actions not just values
+
+``` javascript
+function greaterThan(n) {
+    return m => m > n;
+}
+let greaterThan19 = greaterThan(10);
+console.log(greaterThan10(11));
+// -> true
+```
+
+## Script data set
+
+one area where higher order functions shine is data processes
+
+## Filtering Arrays
+
+```javascript
+function filter(array, test) {
+    let passed = [];
+    for (let element of array) {
+        if (test(element)) {
+            passed.push(element);
+        }
+    }
+    return passed
+}
+console.log(filter(SCRIPTS, script => script.living));
+// -> [{"Adam", ...},...]
+```
+The function uses are argument named test, a function value to fill the gap in the computation- the process of deciding which element to collect
+
+note how the filter function, rather than deleting elements from the exisiting array, builds up a new array with only the element that passe the test
+
+## Transforming with map
+
+<mark> the map method transfroms an array by applying. afunction to all of its elements and bulding a newy array from the returned values
+
+the new arrau woll have the same length as the input array, but its content will have been mapped to a new for by the function
+```javascript
+function map(array, transform) {
+    let mapped = [];
+    for (let element of array) {
+        mapped.push(transform(element));
+    }
+    return mapped;
+}
+```
+
+## summarizing with reduce
+
+another common thing to do wiht arrays is to compute a single value from them
+
+our reccuring example, summing a collection of numbers is an instance of this
+
+the higher-order operation that represents this pattern is called reduce
+
+it builds a value by repeatedly taking a single element from the array and combinging it with the current value
+
+```javascript
+
+function reduce(array, combine, start) {
+    let current = start;
+    for (let element of array) {
+        current = combine(current, element);
+    }
+    return current;
+}
+console.log(reduce([1,2,3,4], (a,b) => a + b, 0));
+// -> 10
+```
+the stand array method reduce which corresponds to this function has an added convenicence
+
+if you array contains at least one element, you are allowed to leave off the start argument
+
+the method will take the first element of the array as its start value and start reduing at the second element
+
+## Composabulity
+
+Higher-order functions start to shine when you need to compose operations
+
+as an example lets write code that finds the average year of origin for living and dead scripts in the data set
+
+```javascript
+function average(array) {
+    return array.reduce((a, b) => a + b) / arrayl.length;
+    }
+```
+
+The some method is another higher-order function - it akes a test functions and tells you whether that function returns true for any of the elements in the array
+
+## Summary
+
+being able to pass function values to toher functions is deeply useful aspect of Javascript
+
+it allows us to write functions that model computations with gaps in them
+
+the code that calls thse functions can fill in the gaps by providing function values
+
+Arrays provide a number of number of useful higher-order methods
+
+you can use a forEach to loop over the elements in an array
+
+the filter method returns a new array containing only the elements that pass the predicate function
+
+Transforming an array by putting each element through a function is done with map
+
+you can use reduce to combine all the elements in an array into a single value
+
+the some method tests whether any element matches a given predicate function
+
+and findIndex finds the position of the first element that matches a predicate
+
+# Chapter 6: The secret life of Objects
+
+in programming culte, we have a thing called Object-Oriented programming - a set of technuqes that use objects as the central principle of program organization
+
+The core idea in object-oriented programming is to divde programs into smaller peices and make each piece responsible for managing its own state
+
+this way some knowledge about the way a piece of the program works can be kept local to that piece.
+
+Different peices of sucha program interact with each other through interface, limited sets of functions or bindings that provide useful functionality at a more abstract level, hidning their precise implmentation
+
+Properties that are part of the interface are called public - the others which outside code should not be touching are called private
+
+seprating iterface from implementation is a great idea and it is called encapsulation
+
+## Methods
+
+Methods are nothing more than properites that hold function values
+
+ a simple method:
+
+ ``` javascript
+
+ let reabbit = {};
+ rabbit.speak = function(line) {
+    console.log(`The Rabbit says '${line}'`);
+ };
+ rabbit.speak("I'm alive");
+ // -> the rabbit says "I'm alive"
+ ```
+
+ usually a method needs to do something with the object it was called on.
+
+ ## Prototypes
+ ```javascript
+ let empty = {};
+ console.log(empty.toString);
+ // -> function to string(){...}
+ console.log(empty.toString());
+ // -> [object Object]
+ ```
+
+ in addition to their set of properties, most objects also have a prototype
+
+ <mark> a prototype is another object that is used as a fallback source of properties
+
+ when an object gets a request for a prortey that it does not have, its prototype will be searched for the property, then the protoype's prototype, and so on
+
+ so who is the prototpe of that empty object? it is the great protoype, the entity behind almost all objects, Object.protoype.
+
+ ## Classes
+
+ Javascripts protoype system can be interpreted as a somewhat informal take on an object-oriented concept called classes
+
+ a class defines the shape of a type of object - what methods and properties it has.
+
+ Such an object is called an instance of a class
+
+ Protoypes are useful for defining properties for which all instances of a class share the saem value, usch as methods
+
+ properties that different per instance need to be stored directly in the objects themselves
+
+ to crate an instance of a given class, you have to make an object that derives from the propert protoype but you also have to make sure it has the properies that instances of this class are supposed to have 
+
+ this is what a constructor function does
+
+ ``` javascript
+ function makeRabbit9type) {
+    let reabbit = Object.create(protoRabiit);
+    rabbit.type = type;
+    return rabbit;
+ }
+ ```
+
+ if you put the keyword new in front of a function call, the function is trated as a constructor
+
+ this means that an object with the right protoype is automatically created, bound to this in the function, and returned at the end of the function
+
+ ``` javascript
+
+ function Rabbit(type) {
+    this.type = type;
+ }
+Rabbit.prototype.speak = function(line) {
+    console.log(`The ${this.type} tabbit says '${line}'`);
+};
+
+let weirdRabbit = new Rabbit("weird");
+```
+
+its important to understand the distinction between the way a prototype is associated with a constructor (through its prototpye property) and the way objects have a prototype (which can be found with Object.getPropotypeOf)
+
+## Class Notation
+
+The class keyword stats a calss declaration, which allows us to degine a constructor and a set f methods all in a single place
+
+like function, class can be used both in statements and in expressions
+
+when used as an expression, it doesnt define a binding but just produces the constructor as a value
+
+you are allowed to omit the calss name in a class expression
+
+``` javascript
+
+let object = new class { getword() { return "hello"} };
+console.log(object.getWord());
+// -> hello
+```
+## Overriding derived properties
+
+When you add a property to an object, whether it is present in the protoy or not, the property is added to the object itselef
+
+if there was already a property with the same name in the prototype, this property will no longer affect the object as it is now hidden behind the objects own proerty
+
+## Maps
+
+A map (noun) is a data structure that associates values (the keys) with other values
+
+for example, you might want to map names to ages - it is possible to uses objects for this
+
+``` javascript
+let ages = {
+    Matt = 20
+    Mary = 21
+};
+```
+The above is dangerous - use the below mao method on a class
+
+``` javascript
+
+let ages = new Map();
+ages.set('Matt', 20);
+ages.set('Mary', 21);
+```
+## Polymorphism
