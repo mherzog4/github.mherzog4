@@ -992,3 +992,155 @@ ages.set('Matt', 20);
 ages.set('Mary', 21);
 ```
 ## Polymorphism
+
+When a piece fof code is written to work with objects that have a certain interface-in this case, a toString-method-any kkind of object that happens to support this interface can be plugged into the code and it iwll just work
+
+<mark> this technique is called polymorphism
+
+Polymorhpic code can work with values of different shapes, as long as they support the interface it expects
+
+## Symbols
+
+It is possilbe for multiple interfaces to use the same property name for different things
+
+Symbolas are values created with the Symbol function
+
+Unlike strings, newly created symbols are unqiue-you cannot create the same symbol twice
+
+``` javascript
+let sym = SYmbol('name');
+console.log(sym == Symbol("name"));
+// -> false
+Rabbit.prototype[sym] = 55;
+console.log(blackRabbit[sym]);
+// -> 55
+```
+
+the string you pass Symbol is included when you convert it to a string and can make it easier to recognize a symbol, when for example, showing it in the console
+
+Butit has no meaning beyond that- multiple symbols may have the same name
+
+Being both unique and usbale as property names makes symbols suitable for defining interfaces that can peacefully live alongside other properties no matter what their names are
+
+## The iterator interface
+
+The object given to a for / of loop is expected to be iterable
+
+this means it has a method named with Symbol.iterator symbol ( a symbol value defined by the language, stored as a property of the Symbol function)
+
+when called, that method should return an object that provides a second interface, iterator
+
+this is the actual thing that it iterates - it has a next method that returns the next result
+
+that result should be an object iwht a value property that provides the next value, if there is one and a done property which should be true when there are no more results and false others
+
+```javascript
+let okIterator = "OK"[Symbol.iterator]();
+console.log(okIterator.next());
+// -> {value: "O", done: false}
+console.log(okIterator.next());
+// -> {value: "K", done: false}
+console.log(okIterator.next());
+// -> {value: undefined, done: true}
+```
+## Getters, Setters, and Statics
+
+Interfaces often consist mostly of methods, but it is also okay to include properties that hold non-function values
+
+for example, Map objects have a szie property that tells you how many keys are stored in them
+
+Even properties that are access directly may hide a method call
+
+Such methods are called getters and they are defined by writing get in fron the the method name in an object expression or calss declarion
+
+``` javascript
+let varySize = {
+    get size() {
+        return Math.floor(Math.random() * 100);
+    }
+};
+console.lg(varyingSize.size);
+// -> 73
+```
+
+whenever someon reads from this objects size property the associated method is called & you can do a similair thing when a property is written, to using a setter
+
+``` javascript
+Class Temperature {
+    constructor(celsius) {
+        this.celsius = celsius;
+    }
+    get fahreneheit() {
+        return this.celsius * 1.8 + 32;
+    }
+    set fahrenheit() {
+        this.celsius = (value - 32) / 1.8
+    }
+    static fromFahrenheit(value) {
+        return new Temperature((value - 32) / 1.8);
+    }
+}
+let temp = new Temperature(22);
+console.log(temp.fahrenheit);
+// -> 71.6
+temp.fahrenheit = 86;
+console.log(temp.celsius);
+// -> 30
+```
+Sometimes you want to attach some properties directly to you constructor function, rather than to the prototpye
+
+Such methods wont have access to a class isntance but can for example be used to provide additional ways to create instances
+
+## INheritance
+
+Javascripts prototype system makes it possible to create a new class, much like the old class, but with new definitions for some of its properties
+
+the prototype for the new class derives from the old protoype but adds a new definition for the set method
+
+in Object-Oreinted programming terms, this is called inheritiance - the new class inherits properties and behavior from the old class
+
+the use of the wor dextends indiactes that this class shouldnt be directly based on the default Object protoype but on som eohte class
+this is called the superclass - the derived class is the subclass
+
+Inheritance allows us to build slighjtly different data types from exisiting data types with relatively little work
+
+it is a fundamental part of the object oreinted tradition, alongside encapsulation and polymorphism
+
+but the latter two are generally regarded as wonderful ideas, inheritiance is more controversial.
+
+## Summary
+
+So objects do more than just hold their own properties
+
+they have protoypes which are other objects
+
+theyll act as if they have properties they dont have as long as their protoype has that proprty
+
+simply objects have Object.prototype as their protoype
+
+Constructors which are functions whose names usally start with a capital letter can be used with athe new operator to create new objects
+
+the new objects protoypr will be the object found in the prototpe proprotery of the constructor
+
+you can make good use of this by putting the properties that all values of a given type share into their prototype
+
+you can define getts and setters to secretly call methods every time an objects proprtey is access
+
+statis methods are methods stored in a class's constructor rahter than its prototype
+
+the isntanceof operator can given an object and constructor tell you whetehrhter that object is an instance of that constructro
+
+moer than one type may implement the same interface
+
+code written to use an interface automatically knows how to work with any number of different objects that provide the interface
+
+this is called polymorphism
+
+when implementing multiple classes that differen in only some detauls it can be helpful to write the new classes as subslasses of an exisiting class, ineheriting part of its behavior
+
+# Chapter 7: A Robot
+
+TBD
+
+# Chapter 8: Bugs and Errors
+
