@@ -8,7 +8,7 @@ Any piece of discrete information can be reduced to a sequence of zeors and ones
 
 ### Values
 
-Every value has a type that determines its role. 
+Every value has a type that determines its role.
 
 Some values are numbers, some values are pieces of some text, and some are functions, ect
 
@@ -48,7 +48,7 @@ A fragment of code that produces a value is called an express
 
 Expressions can contain other expressions in a nested structure
 
-A statement stands on its own, so it amounts to something only if it affects the world - it could display something on the screen 
+A statement stands on its own, so it amounts to something only if it affects the world - it could display something on the screen
 
 & these changes are called side effects
 
@@ -92,7 +92,7 @@ you can call a function by putting parentheses after an expression that produces
 
 ## console.log function
 
-it is a function that writes out its arguments to text 
+it is a function that writes out its arguments to text
 
 ## return values
 
@@ -140,15 +140,13 @@ a do loop is a control structure similar to a while loop & it differers only on 
 
 the role of indenting inside blocks is to make the strucutre of the code standout
 
- 
 in code where new blocks are opned inside other blocks it can become hard to see where one block ends and another begins proper indentation, the visual shape of a program corresponds to the shape of the blocks inside it
-
 
 ## for loops
 
 for (let number = 0; number <=10; number++) {
-    console.log(number);
-    }
+console.log(number);
+}
 
     the parens after a for keyword must contain two semicolons
 
@@ -168,21 +166,22 @@ the continue keyword is similar to break in that it influences the progress of a
 
 theres is a construct called switch that is intended to express such a "dispatch" in a more direct way
 
-``` javascript
+```javascript
 switch (prompt("what is the weather like?")) {
-    case "rainy":
+  case "rainy":
     console.log("remebered to wear your rain boots.");
     break;
-    case "sunny":
+  case "sunny":
     console.log("wear your hat!");
-    case "cloudy":
+  case "cloudy":
     console.log("wear a jacket!");
     break;
-    default:
+  default:
     console.log("unknown weather today");
     break;
 }
 ```
+
 # Chapter 3: Functions
 
 Functions are the bread and butter of javascript
@@ -193,15 +192,16 @@ Functions give us a way to structure larger programs, to reduce repition, to ass
 
 ```javascript
 {
- const square = function(x) {
+  const square = function (x) {
     return x * x;
- };
- 
- console.log(square(12));
+  };
 
- // -> 144
+  console.log(square(12));
+
+  // -> 144
 }
 ```
+
 A function is created with an expression that starts with the keyword function
 
 Functions have a set parameters (in this case, only x)
@@ -222,9 +222,7 @@ a return keyword with out an expression after it will cause the function ro retu
 
 functions that dont have a return statement at all return undefined
 
-
 parameters to a function behave like regular bindings, but their initial values are given by the call of the function, not the code in the function itself
-
 
 ## Bindings and Scopes
 
@@ -274,6 +272,7 @@ const hummus = function (factor) {
     ingredient(2, "cup", "lemon juice");
 };
 ```
+
 the code inside the ingredredien function can see the factor binding from the outer function
 
 but its local bundings such as unit or ingredientAmount are not visible to the outer function
@@ -284,13 +283,11 @@ each local scope can also see all the scopes that contain it, and all scopes can
 
 this appraoch to variable/binding visibility is called lexical scoping
 
-
 ## Functions as values
 
-A function bidning usually just acts as a name for a specifc piece of the program 
+A function bidning usually just acts as a name for a specifc piece of the program
 
-such  binding is definined once and never change & this makes it easy to confuse the function and its name
-
+such binding is definined once and never change & this makes it easy to confuse the function and its name
 
 but the two are different - a function value can adoo all the things that other calues can do - you can use it in expressions, not just call it.
 
@@ -298,14 +295,15 @@ it is possilbe to store a function value in a new binding, pass it as an argumen
 
 a binding that holds a function is still just a regular binding and can be assigned to a new value like so
 
-``` javascript
-let launcheMissiles = function() {
-    missileSystem.luanch("now");
+```javascript
+let launcheMissiles = function () {
+  missileSystem.luanch("now");
 };
 if (safeMode) {
-    launchMissiles = function() {/* do nothing */};
+  launchMissiles = function () {
+    /* do nothing */
+  };
 }
-
 ```
 
 ## delclaration Notation
@@ -314,7 +312,7 @@ There is a slightly shorter way to create a function bidning when the function k
 
 ```javascript
 function square(x) {
-    return x * x;
+  return x * x;
 }
 ```
 
@@ -328,17 +326,18 @@ it is slighly easier to write and doesnt require a semicolon after the function
 
 theres a third notation for functions, which looks very different from the others
 
-instead of the function keyword, it uses an arrow (=>) 
+instead of the function keyword, it uses an arrow (=>)
 
 ```javascript
-const power = (base,exponent) => {
-    let result = 1;
-    for (let count = 0; counter < exponent; count++) {
-        result *= base;
-    }
-    return result;
+const power = (base, exponent) => {
+  let result = 1;
+  for (let count = 0; counter < exponent; count++) {
+    result *= base;
+  }
+  return result;
 };
 ```
+
 The arriwn comes after the list of parameters and is followed by the functions body
 
 it expresses something like "this input (the parameters) produces this result (the body)
@@ -351,7 +350,7 @@ if the body is a single expression, rather than a block in braces, that expressi
 
 ```javascript
 function greet(who) {
-    console.log("Hello " + who);
+  console.log("Hello " + who);
 }
 greet("Harry");
 console.log("Bye");
@@ -365,17 +364,16 @@ a run through this program goes like this:
 - the line after that calls console.log again & after that retruns the program reaches its eend
 
 schematically we could show the control flow here
-- not in function
-    - in greet
-        - in console.log
-    - in greet
-- not in function
-    - in console.log
-- not in function
 
+- not in function
+  - in greet
+    - in console.log
+  - in greet
+- not in function
+  - in console.log
+- not in function
 
 Because a function has to jump back to the place that called it when it returns, the computer must remeber the context from which the call happened
-
 
 <mark>the place where the computer stores this context is called the call stack</mark>
 
@@ -387,14 +385,13 @@ sotring this stack requires space in the computer's memeory
 
 when the stack fros too big, the cimputer will fail with a message like "out of stack space"
 
-
 ## optional arguments
 
 the following code is allowed and execuse without any problem
 
 ```javascript
 function square(x) {
-     return x * x; 
+  return x * x;
 }
 console.log(square(4, true, "headhog"));
 // -> 16
@@ -420,14 +417,13 @@ What happens to local bindings when the function call that created them is no lo
 
 the following code shows an example of this - it defines a function wrapValue that creates a local binding then returns a function that accesses and retruns this local binding
 
-``` javascript 
-
+```javascript
 function wrapValue(n) {
-    let local = n;
-    return () => local;
+  let local = n;
+  return () => local;
 }
 
-let wrap1 =wrapValue(1);
+let wrap1 = wrapValue(1);
 let wrap2 = wrapValue(2);
 console.log(wrap1());
 // -> 1
@@ -443,10 +439,9 @@ a function that referecnes bidnings from local scopes around it is called a clus
 
 this behavior not only frees you from having to worry about lifetimes of bindings but alos makes it possile to use function values in some creative ways
 
-
 ```javascript
 function multiplier(factor) {
-    return number => number * factor;
+  return (number) => number * factor;
 }
 
 let twice = multiplier(2);
@@ -462,7 +457,6 @@ when called the function boyd sees the enviroment in which it was created, not h
 
 it is perfectly okay for a function to call itself as long as it doenst do it so often that it overflows the stack
 
-
 <mark> a function that calls itsle is called resursive</mark>
 
 recurions allows some functions to written in a different style
@@ -477,84 +471,84 @@ function power(base, exponent) {
  }
  conosole.log(power(2,3));
  // -> 8
- ```
+```
 
- this is a rather close to the way mathmaticsians define exponation and arguable describes the concept more clearly than the looping variant
+this is a rather close to the way mathmaticsians define exponation and arguable describes the concept more clearly than the looping variant
 
- the function calls itslef multiple times with ever smaller exponnents to achieve the repeated multiplication
+the function calls itslef multiple times with ever smaller exponnents to achieve the repeated multiplication
 
- but this implmenetation has a problem: in typical javaascript implmenetations, its about 3 times slower than the looping version
+but this implmenetation has a problem: in typical javaascript implmenetations, its about 3 times slower than the looping version
 
- running throuhg a simple loop is generally cheaper than caling a function muliple times
+running throuhg a simple loop is generally cheaper than caling a function muliple times
 
- often though a porgran deals wuth such complicated concepts that giving up sime efficinecy in order to make the porgram more straightforward is helpful
+often though a porgran deals wuth such complicated concepts that giving up sime efficinecy in order to make the porgram more straightforward is helpful
 
- ## growing functions
+## growing functions
 
- there are two more or less natuaral ways for functions to be introducted into progranms
+there are two more or less natuaral ways for functions to be introducted into progranms
 
- the first is that you find yourself writing similiar code muliplie times - you'd prefer not to do that
+the first is that you find yourself writing similiar code muliplie times - you'd prefer not to do that
 
- the second way is that you find you need some functionality that you havent written yet and that sounds like it deservers its own function
+the second way is that you find you need some functionality that you havent written yet and that sounds like it deservers its own function
 
- you can start by naming the function and then you'll write the body
+you can start by naming the function and then you'll write the body
 
- you might even start writing code that uses the function before you actually define the function itself
+you might even start writing code that uses the function before you actually define the function itself
 
- ## functions and side effects
+## functions and side effects
 
- functions can be roughly divided into those that are called for their side effects and those that are called fo rtheir return value
+functions can be roughly divided into those that are called for their side effects and those that are called fo rtheir return value
 
- a pure function is a specific kind of value-producing function that not only has no side effects, but also doesnt rely on side effects from other code 
+a pure function is a specific kind of value-producing function that not only has no side effects, but also doesnt rely on side effects from other code
 
- for example it doesnt read global bindings whose value might change
+for example it doesnt read global bindings whose value might change
 
- a pure function has the pleasant property that when called with the same arguments, it always produces the same value
+a pure function has the pleasant property that when called with the same arguments, it always produces the same value
 
- a call to such function can be substituted by its return value without chanigning the meaning of the code
+a call to such function can be substituted by its return value without chanigning the meaning of the code
 
- when you are not sure that a pure function is wrking correctly you can test it by simply calling it and know that if it works in that context, it will work in any context
+when you are not sure that a pure function is wrking correctly you can test it by simply calling it and know that if it works in that context, it will work in any context
 
- nonpure functions tend to require more scaffolding to test
+nonpure functions tend to require more scaffolding to test
 
- ## Summary
+## Summary
 
- the function keyword when used as an expression can create a function value
+the function keyword when used as an expression can create a function value
 
- when used as a statement it can b used to declare a binding and give it a function as its calue
+when used as a statement it can b used to declare a binding and give it a function as its calue
 
- arrow functions are yet another way to create functioncs
+arrow functions are yet another way to create functioncs
 
- ``` javascript
- //Define f to hold a function value
- const f = function(a) {
-    console.log(a + 2);
- };
+```javascript
+//Define f to hold a function value
+const f = function (a) {
+  console.log(a + 2);
+};
 
- //Declare g to be a function
- function g(a, b) {
-    return a * b * 3.5;
- }
+//Declare g to be a function
+function g(a, b) {
+  return a * b * 3.5;
+}
 
- // a less verbose function value
- let h = a => a % 3;
- ```
+// a less verbose function value
+let h = (a) => a % 3;
+```
 
- a key aspect in understadning functions is understanding scopes
+a key aspect in understadning functions is understanding scopes
 
- each block creates a new scope
+each block creates a new scope
 
- parameters and bindings declared in a given scope are local and not visibile from the outside
+parameters and bindings declared in a given scope are local and not visibile from the outside
 
- bidnings declared with var behave differently-they end up in the nearest function scope or the global scope
+bidnings declared with var behave differently-they end up in the nearest function scope or the global scope
 
- # Chapter 4: Data structures: Objects and Arrays
+# Chapter 4: Data structures: Objects and Arrays
 
- Numbers, boolenas and astrings are the atoms that data structures are built from
+Numbers, boolenas and astrings are the atoms that data structures are built from
 
- many types of intofmation require more than one atom thogh
+many types of intofmation require more than one atom thogh
 
- <mark>Objects allow us to group values-including other objects- to build more complex structures</mark>
+<mark>Objects allow us to group values-including other objects- to build more complex structures</mark>
 
 The programs we have built so far have been limited by the fact that they were operating only on simple data types.
 
@@ -582,10 +576,9 @@ the two main ways to access properties in Javascript are with a dot with square 
 
 both value.x and value[x] acess a property on the value but not the same property
 
-when using a dot the word after the dot is the literal name of the property 
+when using a dot the word after the dot is the literal name of the property
 
 when using square brakcets, the expression between the brackets is evaluated to get the property name
-
 
 whereas value.x fetches the property of value name "x"
 
@@ -601,13 +594,14 @@ property names are strings - they can be any string, but the dot notiation works
 
 Both string and array objects contain, in addition to the length.property, a number of properties that hold function values
 
-``` javascript
+```javascript
 let doh = "Doh";
 console.log(typeof dog.toUpperCase);
 // -> function
 console.log(doh.toUpperCase());
 // -> DOH
 ```
+
 Every string has a toUpperCase property & when called it will return a copy of the string in which all letters have been converted to upercase.
 
 Properties that contain functions are generally called methods of the value they belong to, as in "toUpperCase is a method of a string"
@@ -620,8 +614,8 @@ one way to create an object is by using braces as an expression
 
 ```javascript
 let day1 = {
-    squirrel: false,
-    events: ["work", "touched tree", "running"]
+  squirrel: false,
+  events: ["work", "touched tree", "running"],
 };
 console.log(day1.squirrel);
 // -> false
@@ -657,26 +651,26 @@ with objects there is a difference between having two references to the same obj
 
 if a porperty name in brace notiations inst followed by a vlaue, its value is taking from the bidning with the same name
 
-``` javascript
-addEntry(["work", "pizza", "running", "television"], false); 
+```javascript
+addEntry(["work", "pizza", "running", "television"], false);
 ```
 
 ## Array Loops
 
-``` javascript
- for (let i = 0; i < JOURNDAL.length; i++) {
-    let entry = JOURNDAL[i];
-    //Do something with entry
- }
+```javascript
+for (let i = 0; i < JOURNDAL.length; i++) {
+  let entry = JOURNDAL[i];
+  //Do something with entry
+}
 ```
 
 this kind of loop is common in classical JS - going over arrays one element at a time is something that comes up a lot
 
 there is a simpler way to write that in modern JS
 
-``` javascript
+```javascript
 for (let entry of JOURNAL) {
-    console.log(`${entry.events.length} events. `);
+  console.log(`${entry.events.length} events. `);
 }
 ```
 
@@ -711,7 +705,7 @@ Objects and arrays which are a specific king of object provide ways to group sev
 
 most values in JAvascript have properties, the exception beloning to undefined
 
-properties are accessed using value.prop or value["prop"] 
+properties are accessed using value.prop or value["prop"]
 
 Objects tend to use names for their properties and stroe more or less a fixed set of them
 
@@ -725,7 +719,7 @@ You can iterate over arrays using a special kind of for loop
 
 # Chapter 5: Higher Order Functions
 
-A large program is a cosstly program and not just because of the time it takes to build 
+A large program is a cosstly program and not just because of the time it takes to build
 
 size almost always involves complexity and complexity confuses programmers
 
@@ -747,9 +741,9 @@ It is a useful skill in programming to notice when you are working at a too low 
 
 Higher order functions allow us to abstract over actions not just values
 
-``` javascript
+```javascript
 function greaterThan(n) {
-    return m => m > n;
+  return (m) => m > n;
 }
 let greaterThan19 = greaterThan(10);
 console.log(greaterThan10(11));
@@ -764,17 +758,18 @@ one area where higher order functions shine is data processes
 
 ```javascript
 function filter(array, test) {
-    let passed = [];
-    for (let element of array) {
-        if (test(element)) {
-            passed.push(element);
-        }
+  let passed = [];
+  for (let element of array) {
+    if (test(element)) {
+      passed.push(element);
     }
-    return passed
+  }
+  return passed;
 }
-console.log(filter(SCRIPTS, script => script.living));
+console.log(filter(SCRIPTS, (script) => script.living));
 // -> [{"Adam", ...},...]
 ```
+
 The function uses are argument named test, a function value to fill the gap in the computation- the process of deciding which element to collect
 
 note how the filter function, rather than deleting elements from the exisiting array, builds up a new array with only the element that passe the test
@@ -784,13 +779,14 @@ note how the filter function, rather than deleting elements from the exisiting a
 <mark> the map method transfroms an array by applying. afunction to all of its elements and bulding a newy array from the returned values
 
 the new arrau woll have the same length as the input array, but its content will have been mapped to a new for by the function
+
 ```javascript
 function map(array, transform) {
-    let mapped = [];
-    for (let element of array) {
-        mapped.push(transform(element));
-    }
-    return mapped;
+  let mapped = [];
+  for (let element of array) {
+    mapped.push(transform(element));
+  }
+  return mapped;
 }
 ```
 
@@ -805,17 +801,17 @@ the higher-order operation that represents this pattern is called reduce
 it builds a value by repeatedly taking a single element from the array and combinging it with the current value
 
 ```javascript
-
 function reduce(array, combine, start) {
-    let current = start;
-    for (let element of array) {
-        current = combine(current, element);
-    }
-    return current;
+  let current = start;
+  for (let element of array) {
+    current = combine(current, element);
+  }
+  return current;
 }
-console.log(reduce([1,2,3,4], (a,b) => a + b, 0));
+console.log(reduce([1, 2, 3, 4], (a, b) => a + b, 0));
 // -> 10
 ```
+
 the stand array method reduce which corresponds to this function has an added convenicence
 
 if you array contains at least one element, you are allowed to leave off the start argument
@@ -830,8 +826,8 @@ as an example lets write code that finds the average year of origin for living a
 
 ```javascript
 function average(array) {
-    return array.reduce((a, b) => a + b) / arrayl.length;
-    }
+  return array.reduce((a, b) => a + b) / arrayl.length;
+}
 ```
 
 The some method is another higher-order function - it akes a test functions and tells you whether that function returns true for any of the elements in the array
@@ -876,72 +872,71 @@ seprating iterface from implementation is a great idea and it is called encapsul
 
 Methods are nothing more than properites that hold function values
 
- a simple method:
+a simple method:
 
- ``` javascript
+```javascript
+let reabbit = {};
+rabbit.speak = function (line) {
+  console.log(`The Rabbit says '${line}'`);
+};
+rabbit.speak("I'm alive");
+// -> the rabbit says "I'm alive"
+```
 
- let reabbit = {};
- rabbit.speak = function(line) {
-    console.log(`The Rabbit says '${line}'`);
- };
- rabbit.speak("I'm alive");
- // -> the rabbit says "I'm alive"
- ```
+usually a method needs to do something with the object it was called on.
 
- usually a method needs to do something with the object it was called on.
+## Prototypes
 
- ## Prototypes
- ```javascript
- let empty = {};
- console.log(empty.toString);
- // -> function to string(){...}
- console.log(empty.toString());
- // -> [object Object]
- ```
+```javascript
+let empty = {};
+console.log(empty.toString);
+// -> function to string(){...}
+console.log(empty.toString());
+// -> [object Object]
+```
 
- in addition to their set of properties, most objects also have a prototype
+in addition to their set of properties, most objects also have a prototype
 
- <mark> a prototype is another object that is used as a fallback source of properties
+<mark> a prototype is another object that is used as a fallback source of properties
 
- when an object gets a request for a prortey that it does not have, its prototype will be searched for the property, then the protoype's prototype, and so on
+when an object gets a request for a prortey that it does not have, its prototype will be searched for the property, then the protoype's prototype, and so on
 
- so who is the prototpe of that empty object? it is the great protoype, the entity behind almost all objects, Object.protoype.
+so who is the prototpe of that empty object? it is the great protoype, the entity behind almost all objects, Object.protoype.
 
- ## Classes
+## Classes
 
- Javascripts protoype system can be interpreted as a somewhat informal take on an object-oriented concept called classes
+Javascripts protoype system can be interpreted as a somewhat informal take on an object-oriented concept called classes
 
- a class defines the shape of a type of object - what methods and properties it has.
+a class defines the shape of a type of object - what methods and properties it has.
 
- Such an object is called an instance of a class
+Such an object is called an instance of a class
 
- Protoypes are useful for defining properties for which all instances of a class share the saem value, usch as methods
+Protoypes are useful for defining properties for which all instances of a class share the saem value, usch as methods
 
- properties that different per instance need to be stored directly in the objects themselves
+properties that different per instance need to be stored directly in the objects themselves
 
- to crate an instance of a given class, you have to make an object that derives from the propert protoype but you also have to make sure it has the properies that instances of this class are supposed to have 
+to crate an instance of a given class, you have to make an object that derives from the propert protoype but you also have to make sure it has the properies that instances of this class are supposed to have
 
- this is what a constructor function does
+this is what a constructor function does
 
- ``` javascript
- function makeRabbit9type) {
-    let reabbit = Object.create(protoRabiit);
-    rabbit.type = type;
-    return rabbit;
- }
- ```
+```javascript
+function makeRabbit9type) {
+   let reabbit = Object.create(protoRabiit);
+   rabbit.type = type;
+   return rabbit;
+}
+```
 
- if you put the keyword new in front of a function call, the function is trated as a constructor
+if you put the keyword new in front of a function call, the function is trated as a constructor
 
- this means that an object with the right protoype is automatically created, bound to this in the function, and returned at the end of the function
+this means that an object with the right protoype is automatically created, bound to this in the function, and returned at the end of the function
 
- ``` javascript
-
- function Rabbit(type) {
-    this.type = type;
- }
-Rabbit.prototype.speak = function(line) {
-    console.log(`The ${this.type} tabbit says '${line}'`);
+```javascript
+function Rabbit(type) {
+  this.type = type;
+}
+Rabbit.prototype.speak = function (line) {
+  console.log(`The ${this.type} tabbit says '${line}'`);
 };
 
 let weirdRabbit = new Rabbit("weird");
@@ -959,12 +954,16 @@ when used as an expression, it doesnt define a binding but just produces the con
 
 you are allowed to omit the calss name in a class expression
 
-``` javascript
-
-let object = new class { getword() { return "hello"} };
+```javascript
+let object = new (class {
+  getword() {
+    return "hello";
+  }
+})();
 console.log(object.getWord());
 // -> hello
 ```
+
 ## Overriding derived properties
 
 When you add a property to an object, whether it is present in the protoy or not, the property is added to the object itselef
@@ -977,20 +976,21 @@ A map (noun) is a data structure that associates values (the keys) with other va
 
 for example, you might want to map names to ages - it is possible to uses objects for this
 
-``` javascript
+```javascript
 let ages = {
     Matt = 20
     Mary = 21
 };
 ```
+
 The above is dangerous - use the below mao method on a class
 
-``` javascript
-
+```javascript
 let ages = new Map();
-ages.set('Matt', 20);
-ages.set('Mary', 21);
+ages.set("Matt", 20);
+ages.set("Mary", 21);
 ```
+
 ## Polymorphism
 
 When a piece fof code is written to work with objects that have a certain interface-in this case, a toString-method-any kkind of object that happens to support this interface can be plugged into the code and it iwll just work
@@ -1007,8 +1007,8 @@ Symbolas are values created with the Symbol function
 
 Unlike strings, newly created symbols are unqiue-you cannot create the same symbol twice
 
-``` javascript
-let sym = SYmbol('name');
+```javascript
+let sym = SYmbol("name");
 console.log(sym == Symbol("name"));
 // -> false
 Rabbit.prototype[sym] = 55;
@@ -1043,6 +1043,7 @@ console.log(okIterator.next());
 console.log(okIterator.next());
 // -> {value: undefined, done: true}
 ```
+
 ## Getters, Setters, and Statics
 
 Interfaces often consist mostly of methods, but it is also okay to include properties that hold non-function values
@@ -1053,11 +1054,11 @@ Even properties that are access directly may hide a method call
 
 Such methods are called getters and they are defined by writing get in fron the the method name in an object expression or calss declarion
 
-``` javascript
+```javascript
 let varySize = {
-    get size() {
-        return Math.floor(Math.random() * 100);
-    }
+  get size() {
+    return Math.floor(Math.random() * 100);
+  },
 };
 console.lg(varyingSize.size);
 // -> 73
@@ -1065,7 +1066,7 @@ console.lg(varyingSize.size);
 
 whenever someon reads from this objects size property the associated method is called & you can do a similair thing when a property is written, to using a setter
 
-``` javascript
+```javascript
 Class Temperature {
     constructor(celsius) {
         this.celsius = celsius;
@@ -1087,6 +1088,7 @@ temp.fahrenheit = 86;
 console.log(temp.celsius);
 // -> 30
 ```
+
 Sometimes you want to attach some properties directly to you constructor function, rather than to the prototpye
 
 Such methods wont have access to a class isntance but can for example be used to provide additional ways to create instances
@@ -1143,3 +1145,168 @@ when implementing multiple classes that differen in only some detauls it can be 
 TBD
 
 # Chapter 8: Bugs and Errors
+
+## Strict mode
+
+Javascript can be made a little stricter by enabling strict mode - this is done by putting the string "use strict" at the top of a file or a function body
+
+```javascript
+function canYouSpotTheProblem() {
+  "use strict";
+  for (counter = 0; counter < 10; counter++) {
+    console.log(happy);
+  }
+}
+
+canYouSpotTheProblem();
+// -> referenceError: counter is not defined
+```
+
+in short, putting "use strict" at the top of your program reately hurts and might help you spot a problem
+
+## Types
+
+Some languages want to know the types of all your bidnings and expressions before even running a program
+
+they will tell you right away when a type is used in a inconsistent way
+
+JS considers tpyes only when actually running the program and even there often tries to implicitly conver values to the type it expects so its not much help
+
+when the types of a program are known, its possible for the computer to check them for you, pointing out mistakes before the program is run - the most popular one is called typescript
+
+## Testing
+
+Testing by hand again and again is a really bad idea
+
+not only is it annoying, it also tends to be ineffective since it takes too much to test everything every time you make a change
+
+Computers are good at reptivie tasks and testings is the ideal repetitive task
+
+automated testings is the porcess of writing a program that tests another program
+
+it takes you only seconds to verifiy that your program sitllbehaves properly in all the sitautions you wrote tests for
+
+when you break something you'll immediately notice - rather than running into it at some later time.
+
+## Debugging
+
+Once you notice there is something wrong with your program because it misbehaves or produces errors, the next step is to figure out what the problem is
+
+putting a few strategic console.log calls into the program is good way to get additional information about what the program is doing
+
+An alternative approach to using console.log is to peek into the programs behavior by using the debugger capabilities of your browser
+
+Browsers come with the abilitty to set a breakppoint on a specific line of your code
+
+when the execution of the program reachs a line witha breakpoint, it is paused and you can inspect the values of bidnings at that point
+
+## Error Propagation
+
+Not all problems can be prevented by the programmer - if your program communicates with the outside world in any way, it is possible to get malformed input, to become overloaded with work or to have the network fail
+
+if you're programing only for yourself, you can afford to just ignore such problems until they occur
+
+but if you build somehting that is going to be used by anybody else you usally want the program to do better than just crash - the program has to actively do something in response to the problem
+
+## Excepetions
+
+When a function cannot proceed normally what we would like to do is stop what we are doing and immediately jump to a place that knows how to handle the problem - this is what exception handling does
+
+exceptions are mechanism that makes it possible for code that runs into a problem to raise (or throw) an exception
+
+an exceptions can be any value - raising one somewhat resembles a super-charged return from a function: it jumps out of not just the current function but also its calleds, all the way down to the first call that started the current execution
+
+this is called unwinding the stack
+
+the power lies in the fact that you can set "obstacles" alon g the stack to catch the exception as it is zooming down
+
+once you've caught an exception you do somnething with it to address the problem and then continue to run the program
+
+heres an example:
+
+```javascript
+function promptDirection(question) {
+    let result = prompt(questions)
+    if (result.toLowerCase() == "left") return "L";
+    if (result.toLowerCase() == "right") return "R";
+    throw new Error("Invalid direction " + result);
+}
+function look () {
+    if (promptDirection("Which way?") == "L") {
+        return "a house";
+    }else {
+        return "two angry bears";
+    }
+}
+
+try {
+    console.log("You see", look());
+} catch (error) {
+    console.log("Something went wrong: " error);
+}
+```
+
+the throw keyword is used to raise an exception
+
+catching one is done by wrapping a piece of code in try block, followed by the keyword catch
+
+when the code in the try block causes an exception to be raised, the catch block is evaluated, with the name in parentheses bound to the exception value - after the catch block finishes or if the try block finishes without problems, the program proceeds normally.
+
+## Cleaning up after exceptions
+
+The effect of an exception is another kind of control flow
+
+every action that might cause an exception - which is pretty much every function call and property access, might cause control to suddenly leave your code
+
+this means whene code has several side effectd, even if its "regular" control flow looks like they'll always all happen, an exception might prevent some of them from taking place
+
+there is another feature that try stamenets have - they may be dollowed by a finally block either instead of or in addition to a catch block
+
+a finally block says "no matter what ahppens run this code after trying to run the code in the try block"
+
+```javascript
+function transfer(from, amount) {
+  if (accounts[from] < amount) return;
+  let progress = 0;
+  try {
+    acounts[from] -= amount;
+    progress = 1;
+    accounts[getAccount()] += amount;
+    progress = 2;
+  } finally {
+    if (progress == 1) {
+      accounts[from] += amount;
+    }
+  }
+}
+```
+
+## Selective Catching
+
+For programmer mistakes, just letting the rror go through is often the best you can do - an unhandled exception is reasonable way to singel a broken program and the javascript console will on bodern browsers, povide you with some information about which function call were on the stack when the problem occuered
+
+when a catch body is enetered, all we know is that something in our try body causes an exception - but we dont know what did or which exception it caused
+
+Javascript doesn't provide direct support for selectively catching exceptions: either you catch them all or you dont catch any
+
+As a general rule, dont blanket-catch exceptions unless it is for the purpose of "routing" them somewhere - for example, over the network to tell another system that our program crashed - and even then think carefuly how you might be hdining information
+
+so we want to catch a specific kind of exception - we can dothis by checking in the catch block whether the exception we got is the one we are interested in and rethrowing it otherwise
+
+## Assertions
+
+Assertions are checks inside a program that verify that something is the way it is supposed to be
+
+they are used not to handle situations that can come up in normal operations, but to find programmer mistakes
+
+you want to reserver them for mistakres that are easy to make or that you find yourself making
+
+## Summary
+
+An important part of programming is finding, diagnosing, and fixing bugs - problems can become easier to notice if you have an automated test suite or add assertions to your porgrams
+
+throwing an exception causes the call stack to be unwound until the next enclosing try/catch block or until the bottom of the stack
+
+the exception value will be given to the catch block that catches it, which should verify that it is acutally the expected kind of exception and then do something wiht it - to help adress the unpredicable control flow caused by exceptions, finally blocks can be used to ensure that a piece of code always runs whena block finishes
+
+# Chapter 9: Regular Expressions
