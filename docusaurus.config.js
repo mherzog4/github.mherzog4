@@ -72,10 +72,6 @@ const config = {
             label: 'Projects',
             
           },
-          {to: '/docs/notebook',
-          label: 'Notebook', 
-          position: 'left'
-         },
           {to: '/blog',
            label: 'Blog', 
            position: 'left'
