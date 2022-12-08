@@ -64,7 +64,6 @@ const config = {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
-
         items: [
           {
             to: '/docs/projects',
