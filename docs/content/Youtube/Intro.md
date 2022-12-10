@@ -10,9 +10,8 @@ I break down technical topics on my Youtube channel.
 
 some of the topics include:
 * [LeetCode Problem Walkthroughs](/docs/content/Youtube/Leetcode)
-* Tutorials
+* [Demos of projects](/docs/content/Youtube/Demos)
 * Technical Breakdowns
-* And much more coming soon
 
 <hr></hr>
 
