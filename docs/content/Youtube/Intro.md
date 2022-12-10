@@ -4,7 +4,7 @@ tags: [video]
 
 ---
 
-# My Youtube Chanel
+# Youtube Channel
 
 I break down technical topics on my Youtube channel.
 

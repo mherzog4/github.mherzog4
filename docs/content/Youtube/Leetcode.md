@@ -4,7 +4,7 @@ tags: [Leetcode, video, data structures, algorithms]
 
 ---
 
-# LeetCode videos
+# LeetCode
 
 Watch how I solve LeetCode Problems.
 ### TwoSum LeetCode Problem Solved in Javascript
