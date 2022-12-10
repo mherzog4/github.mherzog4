@@ -9,7 +9,7 @@ tags: [video]
 I break down technical topics on my Youtube channel.
 
 some of the topics include:
-* [LeetCode Problem Walkthroughs](/docs/content/Youtube/Leetcode)
+* [LeetCode problem walkthroughs](/docs/content/Youtube/Leetcode)
 * [Demos of projects](/docs/content/Youtube/Demos)
 * Technical Breakdowns
 
