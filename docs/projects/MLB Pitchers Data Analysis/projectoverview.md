@@ -9,13 +9,13 @@ tags: [firebase]
 
 
 ## Agenda
-* ### [Demo](/docs/projects/Firebase%20blog%20application/demo)
-* ### [Why](/docs/projects/Firebase%20blog%20application/why)
-* ###  [Techstack](/docs/projects/Firebase%20blog%20application/techstack)
-* ###  [Visuals](/docs/projects/Firebase%20blog%20application/visuals)
-* ###  [Trade-offs](/docs/projects/Firebase%20blog%20application/tradeoffs)
-* ###  [Troubleshooting](/docs/projects/Firebase%20blog%20application/troubleshooting)
-* ###  [Retrospective](/docs/projects/Firebase%20blog%20application/retrospective)
+* ### [Demo](/docs/projects/MLB%20Pitchers%20Data%20Analysis/demo)
+* ### [Why](/docs/projects/MLB%20Pitchers%20Data%20Analysis/why)
+* ###  [Techstack](/docs/projects/MLB%20Pitchers%20Data%20Analysis/Techstack)
+* ###  [Visuals](/docs/projects/MLB%20Pitchers%20Data%20Analysis/visuals)
+* ###  [Trade-offs](/docs/projects/MLB%20Pitchers%20Data%20Analysis/tradeoffs)
+* ###  [Troubleshooting](/docs/projects/MLB%20Pitchers%20Data%20Analysis/troubleshooting)
+* ###  [Retrospective](/docs/projects/MLB%20Pitchers%20Data%20Analysis/retrospective)
 
 
 <hr></hr>

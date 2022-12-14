@@ -9,13 +9,13 @@ tags: [firebase]
 
 
 ## Agenda
-* ### [Demo](/docs/projects/Firebase%20blog%20application/demo)
-* ### [Why](/docs/projects/Firebase%20blog%20application/why)
-* ###  [Techstack](/docs/projects/Firebase%20blog%20application/techstack)
-* ###  [Visuals](/docs/projects/Firebase%20blog%20application/visuals)
-* ###  [Trade-offs](/docs/projects/Firebase%20blog%20application/tradeoffs)
-* ###  [Troubleshooting](/docs/projects/Firebase%20blog%20application/troubleshooting)
-* ###  [Retrospective](/docs/projects/Firebase%20blog%20application/retrospective)
+* ### [Demo](/docs/projects/Real%20Time%20Chat%20App/demo)
+* ### [Why](/docs/projects/Real%20Time%20Chat%20App/why)
+* ###  [Techstack](/docs/projects/Real%20Time%20Chat%20App/Techstack)
+* ###  [Visuals](/docs/projects/Real%20Time%20Chat%20App/visuals)
+* ###  [Trade-offs](/docs/projects/Real%20Time%20Chat%20App/tradeoffs)
+* ###  [Troubleshooting](/docs/projects/Real%20Time%20Chat%20App/troubleshooting)
+* ###  [Retrospective](/docs/projects/Real%20Time%20Chat%20App/retrospective)
 
 
 <hr></hr>

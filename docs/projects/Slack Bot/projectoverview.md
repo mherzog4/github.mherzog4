@@ -9,13 +9,13 @@ tags: [firebase]
 
 
 ## Agenda
-* ### [Demo](/docs/projects/Firebase%20blog%20application/demo)
-* ### [Why](/docs/projects/Firebase%20blog%20application/why)
-* ###  [Techstack](/docs/projects/Firebase%20blog%20application/techstack)
-* ###  [Visuals](/docs/projects/Firebase%20blog%20application/visuals)
-* ###  [Trade-offs](/docs/projects/Firebase%20blog%20application/tradeoffs)
-* ###  [Troubleshooting](/docs/projects/Firebase%20blog%20application/troubleshooting)
-* ###  [Retrospective](/docs/projects/Firebase%20blog%20application/retrospective)
+* ### [Demo](/docs/projects/Slack%20Bot/demo)
+* ### [Why](/docs/projects/Slack%20Bot/why)
+* ###  [Techstack](/docs/projects/Slack%20Bot/Techstack)
+* ###  [Visuals](/docs/projects/Slack%20Bot/visuals)
+* ###  [Trade-offs](/docs/projects/Slack%20Bot/tradeoffs)
+* ###  [Troubleshooting](/docs/projects/Slack%20Bot/troubleshooting)
+* ###  [Retrospective](/docs/projects/Slack%20Bot/retrospective)
 
 
 <hr></hr>
