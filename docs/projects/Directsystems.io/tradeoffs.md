@@ -4,7 +4,7 @@ tags: [firebase]
 
 ---
 
-# Firebase Blog Trade-offs
+# Trade-offs
 
 
 <hr></hr>

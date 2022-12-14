@@ -4,7 +4,7 @@ tags: [firebase]
 
 ---
 
-# Firebase Blog Technical Deep Dive
+# Technical Deep Dive
 
 
 

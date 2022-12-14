@@ -1,10 +1,16 @@
 ---
-sidebar_position: 5
+sidebar_position: 3
 tags: [firebase]
 
 ---
 
-# Firebase Blog Techstack
+# Why?
+
+## Problem
+
+## Solution
+
+## What I wanted to learn
 
 <hr></hr>
 

@@ -4,7 +4,7 @@ tags: [firebase]
 
 ---
 
-# Firebase Blog - Why?
+# Why?
 
 ## Problem
 

@@ -1,10 +1,16 @@
 ---
-sidebar_position: 8
+sidebar_position: 3
 tags: [firebase]
 
 ---
 
-# Firebase Blog Retrospective
+# Why?
+
+## Problem
+
+## Solution
+
+## What I wanted to learn
 
 <hr></hr>
 
