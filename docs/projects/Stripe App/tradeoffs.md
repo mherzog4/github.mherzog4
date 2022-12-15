@@ -1,10 +1,11 @@
 ---
-sidebar_position: 8
-tags: [Python, Cybersecurity, Backdoor]
+sidebar_position: 7
+tags: [firebase]
 
 ---
 
-# Retrospective
+# Trade-offs
+
 
 <hr></hr>
 

@@ -1,7 +1,6 @@
 ---
 sidebar_position: 1
-tags: [firebase]
-date: 2022
+tags: [Python, Cybersecurity, Backdoor]
 
 ---
 

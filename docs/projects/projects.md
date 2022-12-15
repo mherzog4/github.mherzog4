@@ -18,6 +18,7 @@ In each project overview you will be able to go to the hosted version of the pro
 * [Portscanner](/docs/projects/portscanner/projectoverview)
 * [Real Time Chat App](/docs/projects/Real%20Time%20Chat%20App/projectoverview)
 * [Slack Bot](/docs/projects/slack%20bot/projectoverview)
+* [Stripe App](/docs/projects/stripe%20app/projectoverview)
 * [Twitter Profile Bot](/docs/projects/Twitter%20Profile%20Bot/projectoverview)
 
 <hr></hr>

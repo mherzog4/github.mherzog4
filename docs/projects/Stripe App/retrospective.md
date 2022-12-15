@@ -1,6 +1,6 @@
 ---
 sidebar_position: 8
-tags: [Python, Cybersecurity, Backdoor]
+tags: [firebase]
 
 ---
 
