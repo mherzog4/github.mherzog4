@@ -9,17 +9,23 @@ In this section I go into details about the projects I have created.
 
 In each project overview you will be able to go to the hosted version of the project, detailed architecture, a video demo, and other detailed information.
 
-## Projects
-* [Backdoor attack](/docs/projects/backdoor%20attack/projectoverview)
+## Web Development Projects
 * [DirectSystems.io website](/docs/projects/Directsystems.io/projectoverview)
 * [Hackernews Webscraper](/docs/projects/Firebase%20blog%20application/projectoverview)
-* [Keylogger](/docs/projects/Keylogger/projectoverview)
 * [MLB Pitcher Data Anlaysis](/docs/projects/MLB%20Pitchers%20Data%20Analysis/projectoverview)
-* [Portscanner](/docs/projects/portscanner/projectoverview)
 * [Real Time Chat App](/docs/projects/Real%20Time%20Chat%20App/projectoverview)
 * [Slack Bot](/docs/projects/slack%20bot/projectoverview)
 * [Stripe App](/docs/projects/stripe%20app/projectoverview)
 * [Twitter Profile Bot](/docs/projects/Twitter%20Profile%20Bot/projectoverview)
+
+## Cybersecurity Projects
+* [Backdoor attack](/docs/projects/backdoor%20attack/projectoverview)
+* [Keylogger](/docs/projects/Keylogger/projectoverview)
+* [Portscanner](/docs/projects/portscanner/projectoverview)
+## IOS
+
+## Certifications
+
 
 <hr></hr>
 
