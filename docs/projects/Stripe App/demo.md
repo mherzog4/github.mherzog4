@@ -6,6 +6,8 @@ tags: [firebase]
 
 # Demo
 
+Stripe app that takes in customer data and displays it in a widget form to make quick transactions
+
 <hr></hr>
 
 <a href="https://calendly.com/mattherzog/business-chat" target="_blank"><b><u>Hire me</u></b></a>

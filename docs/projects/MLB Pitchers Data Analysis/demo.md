@@ -6,6 +6,8 @@ tags: [firebase]
 
 # Demo
 
+Data analysis of MLB pitcher data using Python, Pandas, and Matplotlib
+
 <hr></hr>
 
 <a href="https://calendly.com/mattherzog/business-chat" target="_blank"><b><u>Hire me</u></b></a>

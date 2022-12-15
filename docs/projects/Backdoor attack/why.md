@@ -6,6 +6,10 @@ tags: [Python, Cybersecurity, Backdoor]
 
 # Why?
 
+I am broadening my skills in a variety of different ways to become more versatile.
+
+Cybersecurity has always been an interest of mine and I found it to be a great way to learn Python.
+
 ## Problem
 
 ## Solution
