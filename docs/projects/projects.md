@@ -10,7 +10,7 @@ In this section I go into details about the projects I have created.
 In each project overview you will be able to go to the hosted version of the project, detailed architecture, a video demo, and other detailed information.
 
 ## Web Development Projects
-* [Directsystems.io website](/docs/projects/Directsystems.io/projectoverview)
+* [Directsystems.io Website](/docs/projects/Directsystems.io/projectoverview)
 * [Hackernews Webscraper](/docs/projects/Firebase%20blog%20application/projectoverview)
 * [MLB Pitcher Data Anlaysis](/docs/projects/MLB%20Pitchers%20Data%20Analysis/projectoverview)
 * [Real Time Chat App](/docs/projects/Real%20Time%20Chat%20App/projectoverview)
@@ -25,6 +25,7 @@ In each project overview you will be able to go to the hosted version of the pro
 ## Mobile Projects
 
 ## Certifications
+- Flatiron School
 
 
 <hr></hr>
