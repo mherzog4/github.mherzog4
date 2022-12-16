@@ -12,9 +12,6 @@ const FeatureList = [
  <br></br>
 <br></br>
       During my bootcamp I worked with React, Ruby on Rails, Firebase, and other technologies.
-<br></br>
-<br></br>
-      Visit my <a href='http://mattherzog.me/docs/learning'><b><u>learning section</u></b></a> to see what I am learning now.
       </>
      
     ),
