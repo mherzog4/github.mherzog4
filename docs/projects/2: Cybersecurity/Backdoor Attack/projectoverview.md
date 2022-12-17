@@ -9,12 +9,12 @@ tags: [Python, Cybersecurity, Backdoor]
 
 
 ## Agenda
-* ### [Demo](/docs/projects/Cybersecurity/backdoor%20Attack/demo)
-* ### [Why](/docs/projects/Cybersecurity/backdoor%20Attack/why)
-* ###  [Techstack](/docs/projects/Cybersecurity/backdoor%20Attack/Techstack)
-* ###  [Visuals](/docs/projects/Cybersecurity/backdoor%20Attack/visuals)
-* ###  [Trade-offs](/docs/projects/Cybersecurity/backdoor%20Attack/tradeoffs)
-* ###  [Troubleshooting](/docs/projects/Cybersecurity/backdoor%20Attack/troubleshooting)
+* ### [Demo](/docs/projects/2:%20Cybersecurity/backdoor%20Attack/demo)
+* ### [Why](/docs/projects/2:%20Cybersecurity/backdoor%20Attack/why)
+* ###  [Techstack](/docs/projects/2:%20Cybersecurity/backdoor%20Attack/Techstack)
+* ###  [Visuals](/docs/projects/2:%20Cybersecurity/backdoor%20Attack/visuals)
+* ###  [Trade-offs](/docs/projects/2:%20Cybersecurity/backdoor%20Attack/tradeoffs)
+* ###  [Troubleshooting](/docs/projects/2:%20Cybersecurity/backdoor%20Attack/troubleshooting)
 * ###  [Retrospective](/docs/projects/Cybersecurity/backdoor%20Attack/retrospective)
 
 

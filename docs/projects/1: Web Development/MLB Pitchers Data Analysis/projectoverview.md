@@ -9,13 +9,13 @@ tags: [firebase]
 
 
 ## Agenda
-* ### [Demo](/docs/projects/Web%20Development/MLB%20Pitchers%20Data%20Analysis/demo)
-* ### [Why](/docs/projects/Web%20Development/MLB%20Pitchers%20Data%20Analysis/why)
-* ###  [Techstack](/docs/projects/Web%20Development/MLB%20Pitchers%20Data%20Analysis/Techstack)
-* ###  [Visuals](/docs/projects/Web%20Development/MLB%20Pitchers%20Data%20Analysis/visuals)
-* ###  [Trade-offs](/docs/projects/Web%20Development/MLB%20Pitchers%20Data%20Analysis/tradeoffs)
-* ###  [Troubleshooting](/docs/projects/Web%20Development/MLB%20Pitchers%20Data%20Analysis/troubleshooting)
-* ###  [Retrospective](/docs/projects/Web%20Development/MLB%20Pitchers%20Data%20Analysis/retrospective)
+* ### [Demo](/docs/projects/1:%20Web%20Development/MLB%20Pitchers%20Data%20Analysis/demo)
+* ### [Why](/docs/projects/1:%20Web%20Development/MLB%20Pitchers%20Data%20Analysis/why)
+* ###  [Techstack](/docs/projects/1:%20Web%20Development/MLB%20Pitchers%20Data%20Analysis/Techstack)
+* ###  [Visuals](/docs/projects/1:%20Web%20Development/MLB%20Pitchers%20Data%20Analysis/visuals)
+* ###  [Trade-offs](/docs/projects/1:%20Web%20Development/MLB%20Pitchers%20Data%20Analysis/tradeoffs)
+* ###  [Troubleshooting](/docs/projects/1:%20Web%20Development/MLB%20Pitchers%20Data%20Analysis/troubleshooting)
+* ###  [Retrospective](/docs/projects/1:%20Web%20Development/MLB%20Pitchers%20Data%20Analysis/retrospective)
 
 
 <hr></hr>

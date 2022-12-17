@@ -9,12 +9,12 @@ tags: [firebase]
 
 
 ## Agenda
-* ### [Demo](/docs/projects/Cybersecurity/keylogger/demo)
-* ### [Why](/docs/projects/Cybersecurity/keylogger/why)
-* ###  [Techstack](/docs/projects/Cybersecurity/keylogger/Techstack)
-* ###  [Visuals](/docs/projects/Cybersecurity/keylogger/visuals)
-* ###  [Trade-offs](/docs/projects/Cybersecurity/keylogger/tradeoffs)
-* ###  [Troubleshooting](/docs/projects/Cybersecurity/keylogger/troubleshooting)
+* ### [Demo](/docs/projects/2:%20Cybersecurity/keylogger/demo)
+* ### [Why](/docs/projects/2:%20Cybersecurity/keylogger/why)
+* ###  [Techstack](/docs/projects/2:%20Cybersecurity/keylogger/Techstack)
+* ###  [Visuals](/docs/projects/2:%20Cybersecurity/keylogger/visuals)
+* ###  [Trade-offs](/docs/projects/2:%20Cybersecurity/keylogger/tradeoffs)
+* ###  [Troubleshooting](/docs/projects/2:%20Cybersecurity/keylogger/troubleshooting)
 * ###  [Retrospective](/docs/projects/Cybersecurity/keylogger/retrospective)
 
 

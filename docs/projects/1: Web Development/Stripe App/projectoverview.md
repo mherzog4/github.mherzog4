@@ -9,12 +9,12 @@ tags: [firebase]
 
 
 ## Agenda
-* ### [Demo](/docs/projects/Web%20Development/Stripe%20App/demo)
-* ### [Why](/docs/projects/Web%20Development/Stripe%20App/why)
-* ###  [Techstack](/docs/projects/Web%20Development/Stripe%20App/Techstack)
-* ###  [Visuals](/docs/projects/Web%20Development/Stripe%20App/visuals)
-* ###  [Trade-offs](/docs/projects/Web%20Development/Stripe%20App/tradeoffs)
-* ###  [Troubleshooting](/docs/projects/Web%20Development/Stripe%20App/troubleshooting)
+* ### [Demo](/docs/projects/1:%20Web%20Development/Stripe%20App/demo)
+* ### [Why](/docs/projects/1:%20Web%20Development/Stripe%20App/why)
+* ###  [Techstack](/docs/projects/1:%20Web%20Development/Stripe%20App/Techstack)
+* ###  [Visuals](/docs/projects/1:%20Web%20Development/Stripe%20App/visuals)
+* ###  [Trade-offs](/docs/projects/1:%20Web%20Development/Stripe%20App/tradeoffs)
+* ###  [Troubleshooting](/docs/projects/1:%20Web%20Development/Stripe%20App/troubleshooting)
 * ###  [Retrospective](/docs/projects/Web%20Development/Stripe%20App/retrospective)
 
 

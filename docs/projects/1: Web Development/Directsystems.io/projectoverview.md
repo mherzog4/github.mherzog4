@@ -9,13 +9,13 @@ tags: [cybersecurity, backdoor, python]
 
 
 ## Agenda
-* ### [Demo](docs/projects/Web%20Development/Directsystems.io/demo)
-* ### [Why](/docs/projects/Web%20Development/Directsystems.io/why)
-* ###  [Techstack](/docs/projects/Web%20Development/Directsystems.io/Techstack)
-* ###  [Visuals](/docs/projects/Web%20Development/Directsystems.io/visuals)
-* ###  [Trade-offs](/docs/projects/Web%20Development/Directsystems.io/tradeoffs)
-* ###  [Troubleshooting](/docs/projects/Web%20Development/Directsystems.io/troubleshooting)
-* ###  [Retrospective](/docs/projects/Web%20Development/Directsystems.io/retrospective)
+* ### [Demo](/docs/projects/1:%20Web%20Development/Directsystems.io/demo)
+* ### [Why](/docs/projects/1:%20Web%20Development/Directsystems.io/why)
+* ###  [Techstack](/docs/projects/1:%20Web%20Development/Directsystems.io/Techstack)
+* ###  [Visuals](/docs/projects/1:%20Web%20Development/Directsystems.io/visuals)
+* ###  [Trade-offs](/docs/projects/1:%20Web%20Development/Directsystems.io/tradeoffs)
+* ###  [Troubleshooting](/docs/projects/1:%20Web%20Development/Directsystems.io/troubleshooting)
+* ###  [Retrospective](/docs/projects/1:%20Web%20Development/Directsystems.io/retrospective)
 
 
 <hr></hr>

@@ -9,13 +9,13 @@ tags: [firebase]
 
 
 ## Agenda
-* ### [Demo](/docs/projects/Web%20Development/Hackernews%20Webscraper/demo)
-* ### [Why](/docs/projects/Web%20Development/Hackernews%20Webscraper/why)
-* ###  [Techstack](/docs/projects/Web%20Development/Hackernews%20Webscraper/Techstack)
-* ###  [Visuals](/docs/projects/Web%20Development/Hackernews%20Webscraper/visuals)
-* ###  [Trade-offs](/docs/projects/Web%20Development/Hackernews%20Webscraper/tradeoffs)
-* ###  [Troubleshooting](/docs/projects/Web%20Development/Hackernews%20Webscraper/troubleshooting)
-* ###  [Retrospective](/docs/projects/Web%20Development/Hackernews%20Webscraper/retrospective)
+* ### [Demo](/docs/projects/1:%20Web%20Development/Hackernews%20Webscraper/demo)
+* ### [Why](/docs/projects/1:%20Web%20Development/Hackernews%20Webscraper/why)
+* ###  [Techstack](/docs/projects/1:%20Web%20Development/Hackernews%20Webscraper/Techstack)
+* ###  [Visuals](/docs/projects/1:%20Web%20Development/Hackernews%20Webscraper/visuals)
+* ###  [Trade-offs](/docs/projects/1:%20Web%20Development/Hackernews%20Webscraper/tradeoffs)
+* ###  [Troubleshooting](/docs/projects/1:%20Web%20Development/Hackernews%20Webscraper/troubleshooting)
+* ###  [Retrospective](/docs/projects/1:%20Web%20Development/Hackernews%20Webscraper/retrospective)
 
 
 <hr></hr>

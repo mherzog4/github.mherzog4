@@ -9,13 +9,13 @@ tags: [firebase]
 
 
 ## Agenda
-* ### [Demo](/docs/projects/Cybersecurity/portscanner/demo)
-* ### [Why](/docs/projects/Cybersecurity/portscanner/why)
-* ###  [Techstack](/docs/projects/Cybersecurity/portscanner/Techstack)
-* ###  [Visuals](/docs/projects/Cybersecurity/portscanner/visuals)
-* ###  [Trade-offs](/docs/projects/Cybersecurity/Portscanner/tradeoffs)
-* ###  [Troubleshooting](/docs/projects/Cybersecurity/Portscanner/troubleshooting)
-* ###  [Retrospective](/docs/projects/Cybersecurity/Portscanner/retrospective)
+* ### [Demo](/docs/projects/2:%20Cybersecurity/portscanner/demo)
+* ### [Why](/docs/projects/2:%20Cybersecurity/portscanner/why)
+* ###  [Techstack](/docs/projects/2:%20Cybersecurity/portscanner/Techstack)
+* ###  [Visuals](/docs/projects/2:%20Cybersecurity/portscanner/visuals)
+* ###  [Trade-offs](/docs/projects/2:%20Cybersecurity/Portscanner/tradeoffs)
+* ###  [Troubleshooting](/docs/projects/2:%20Cybersecurity/Portscanner/troubleshooting)
+* ###  [Retrospective](/docs/projects/2:%20Cybersecurity/Portscanner/retrospective)
 
 
 <hr></hr>

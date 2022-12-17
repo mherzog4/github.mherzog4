@@ -9,13 +9,13 @@ tags: [firebase]
 
 
 ## Agenda
-* ### [Demo](/docs/projects/Web%20Development/Twitter%20Profile%20Bot/demo)
-* ### [Why](/docs/projects/Web%20Development/Twitter%20Profile%20Bot/why)
-* ###  [Techstack](/docs/projects/Web%20Development/Twitter%20Profile%20Bot/Techstack)
-* ###  [Visuals](/docs/projects/Web%20Development/Twitter%20Profile%20Bot/visuals)
-* ###  [Trade-offs](/docs/projects/Web%20Development/Twitter%20Profile%20Bot/tradeoffs)
-* ###  [Troubleshooting](/docs/projects/Web%20Development/Twitter%20Profile%20Bot/troubleshooting)
-* ###  [Retrospective](/docs/projects/Web%20Development/Twitter%20Profile%20Bot/retrospective)
+* ### [Demo](/docs/projects/1:%20Web%20Development/Twitter%20Profile%20Bot/demo)
+* ### [Why](/docs/projects/1:%20Web%20Development/Twitter%20Profile%20Bot/why)
+* ###  [Techstack](/docs/projects/1:%20Web%20Development/Twitter%20Profile%20Bot/Techstack)
+* ###  [Visuals](/docs/projects/1:%20Web%20Development/Twitter%20Profile%20Bot/visuals)
+* ###  [Trade-offs](/docs/projects/1:%20Web%20Development/Twitter%20Profile%20Bot/tradeoffs)
+* ###  [Troubleshooting](/docs/projects/1:%20Web%20Development/Twitter%20Profile%20Bot/troubleshooting)
+* ###  [Retrospective](/docs/projects/1:%20Web%20Development/Twitter%20Profile%20Bot/retrospective)
 
 
 <hr></hr>
