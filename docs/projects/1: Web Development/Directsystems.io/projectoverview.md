@@ -1,12 +1,6 @@
 ---
 sidebar_position: 1
 tags: [Next, Tailwind, Vite, Jest, Cypress]
-authors:
-  - name: Matt Herzog
-    title: Software Engineer
-    url: https://linkedin.com/mattherzog3
-    image_url: https://github.com/mherzog4.png
-
 ---
 
 # Technical Deep Dive
