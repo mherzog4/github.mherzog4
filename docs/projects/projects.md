@@ -27,6 +27,8 @@ In each project overview you will be able to go to the hosted version of the pro
 
 ## Certifications
 * [Flatiron School](/docs/projects/3:%20Certifications/certs)
+* [JB Sales Filling The Funnel](/docs/projects/3:%20Certifications/certs)
+* [JB Sales Driving To Close](/docs/projects/3:%20Certifications/certs)
 
 
 <hr></hr>

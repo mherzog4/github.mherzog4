@@ -1,10 +1,14 @@
 ---
 sidebar_position: 8
-tags: [firebase]
+tags: [Next, Tailwind, Vite, Jest, Cypress]
 
 ---
 
 # Retrospective
+
+This was a fairly simple website with not much functionality.
+
+But, I would like to add a login portal for clients that display dashboards and have a trello like project management system.
 
 <hr></hr>
 

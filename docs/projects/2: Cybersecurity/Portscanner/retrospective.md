@@ -1,6 +1,6 @@
 ---
 sidebar_position: 8
-tags: [firebase]
+tags: [Cybersecurity, Python, Portscanner]
 
 ---
 

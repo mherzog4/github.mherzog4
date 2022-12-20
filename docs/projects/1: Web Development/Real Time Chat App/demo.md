@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-tags: [firebase]
+tags: [React, GraphQL, Socketio, Chat]
 
 ---
 

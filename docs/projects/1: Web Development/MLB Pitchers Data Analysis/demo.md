@@ -1,12 +1,16 @@
 ---
 sidebar_position: 2
-tags: [firebase]
+tags: [Python, Pandas, Matplotlib, Data Analysis]
 
 ---
 
 # Demo
 
 Data analysis of MLB pitcher data using Python, Pandas, and Matplotlib
+
+## Video
+
+## Code
 
 <hr></hr>
 

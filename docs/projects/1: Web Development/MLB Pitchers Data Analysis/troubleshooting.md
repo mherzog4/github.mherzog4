@@ -1,10 +1,14 @@
 ---
 sidebar_position: 7
-tags: [firebase]
+tags: [Python, Pandas, Matplotlib, Data Analysis]
 
 ---
 
 # Troubleshooting
+
+The biggest issue I ran into was configuring my Anaconda environment.
+
+But after 5-10 minutes going through the docs I was able to get the configuration up and running.
 
 <hr></hr>
 

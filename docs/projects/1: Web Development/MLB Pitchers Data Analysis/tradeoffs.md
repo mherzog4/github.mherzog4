@@ -1,10 +1,14 @@
 ---
 sidebar_position: 7
-tags: [firebase]
+tags: [Python, Pandas, Matplotlib, Data Analysis]
 
 ---
 
 # Trade-offs
+
+No code tools like Tabluea or PowerBI
+
+
 
 
 <hr></hr>

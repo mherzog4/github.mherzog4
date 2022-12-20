@@ -1,10 +1,14 @@
 ---
 sidebar_position: 7
-tags: [firebase]
+tags: [Python, Web Scraping, Beautiful Soup]
 
 ---
 
 # Trade-offs
+
+- Pupperteer
+- Javascript for webscraping
+- Node
 
 
 <hr></hr>

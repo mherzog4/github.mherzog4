@@ -1,10 +1,16 @@
 ---
 sidebar_position: 8
-tags: [firebase]
+tags: [Python, Pandas, Matplotlib, Data Analysis]
 
 ---
 
 # Retrospective
+
+I felt like this was a good primer into data analysis with Python.
+
+I can see a ton of different use cases especially in verticals where there is big data like Sports, Finance, and Health Care.
+
+
 
 <hr></hr>
 

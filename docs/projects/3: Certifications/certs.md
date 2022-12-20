@@ -2,10 +2,16 @@
 title: Certifications 
 ---
 
-## Flatiron School
+## Software Engineering
+### Flatiron School - 2022
 
-## Fill the funnel
+## Sales
+### Fill the funnel - 2022 
 - JB Sales
 
-## Driving to close 
+### Driving to close - 2022
 - JB Sales
+<!-- 
+## Cybersecurity
+
+## Accomplishments -->

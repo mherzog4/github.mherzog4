@@ -1,10 +1,14 @@
 ---
 sidebar_position: 2
-tags: [firebase]
+tags: [Python, Web Scraping, Beautiful Soup]
 
 ---
 
 # Demo
+
+## Video
+
+## Code
 
 <hr></hr>
 

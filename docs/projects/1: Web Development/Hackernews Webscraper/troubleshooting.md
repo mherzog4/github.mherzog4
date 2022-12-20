@@ -1,10 +1,12 @@
 ---
 sidebar_position: 7
-tags: [firebase]
+tags: [Python, Web Scraping, Beautiful Soup]
 
 ---
 
 # Troubleshooting
+
+
 
 <hr></hr>
 

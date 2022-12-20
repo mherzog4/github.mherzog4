@@ -1,10 +1,14 @@
 ---
 sidebar_position: 5
-tags: [firebase]
+tags: [Python, Web Scraping, Beautiful Soup]
 
 ---
 
 # Techstack
+
+- Python
+- Beautiful Soup
+
 
 <hr></hr>
 

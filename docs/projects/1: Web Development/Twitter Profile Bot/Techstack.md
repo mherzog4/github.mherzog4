@@ -1,10 +1,14 @@
 ---
 sidebar_position: 5
-tags: [firebase]
+tags: [Python, Twitter, API]
 
 ---
 
 # Techstack
+
+- Python
+- Tweepy
+- Twitter API v2.0
 
 <hr></hr>
 

@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-tags: [firebase]
+tags: [Python, Web Scraping, Beautiful Soup]
 
 ---
 
@@ -8,9 +8,14 @@ tags: [firebase]
 
 ## Problem
 
+I have seen many uses cases for Webscraping, so I wanted to have an intro to this tool to build more complext webscraping features in the future.
+
 ## Solution
 
 ## What I wanted to learn
+
+Webscraping
+Python syntax and functionality
 
 <hr></hr>
 

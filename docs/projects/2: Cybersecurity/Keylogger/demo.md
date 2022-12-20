@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-tags: [Cybersecurity, Python]
+tags: [Cybersecurity, Python, Keylogger]
 
 ---
 
@@ -8,6 +8,10 @@ tags: [Cybersecurity, Python]
 
 
 creates an undetectable processmanager.txt file and writes all the inputted keystrokes to the file
+
+## Video
+
+## Code
 
 <hr></hr>
 

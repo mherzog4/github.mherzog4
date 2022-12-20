@@ -1,10 +1,14 @@
 ---
 sidebar_position: 7
-tags: [firebase]
+tags: [Next, Tailwind, Vite, Jest, Cypress]
 
 ---
 
 # Troubleshooting
+
+The biggest "bug" was my going back and forth between the docs since I am using multiple of these tools for the first time.
+
+configuring Tailwind was pretty straightforward, Deployment on Vercel took maybe 3 clicks, and if you know React, Next will only speed up development.
 
 <hr></hr>
 

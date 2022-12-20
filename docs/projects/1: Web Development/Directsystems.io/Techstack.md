@@ -1,10 +1,24 @@
 ---
 sidebar_position: 5
-tags: [firebase]
+tags: [Next, Tailwind, Vite, Jest, Cypress]
 
 ---
 
 # Techstack
+
+## Client
+- Next.js
+- Tailwind
+
+## Server
+- Node.js
+## Other
+- Vite - Build tool
+- Jest - for Unit testing
+- Cyoress - for End-to-End tests
+- Vercel - for deployment
+- prettier - code formatter
+- esling - code linter support
 
 <hr></hr>
 

@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-tags: [firebase]
+tags: [Python, Pandas, Matplotlib, Data Analysis]
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 sidebar_position: 7
-tags: [firebase]
+tags: [Stripe, API]
 
 ---
 

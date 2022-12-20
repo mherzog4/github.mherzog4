@@ -1,6 +1,6 @@
 ---
 sidebar_position: 5
-tags: [firebase]
+tags: [Python, Pandas, Matplotlib, Data Analysis]
 
 ---
 
@@ -9,6 +9,7 @@ tags: [firebase]
 - Python
 - Pandas
 - Matplotlib
+- CSV file format
 
 <hr></hr>
 
