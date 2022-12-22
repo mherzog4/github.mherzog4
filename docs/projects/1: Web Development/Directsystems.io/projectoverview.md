@@ -1,11 +1,11 @@
 ---
 sidebar_position: 1
 tags: [Next, Tailwind, Vite, Jest, Cypress]
+last_update: 
+    date: 12/22/2022
 ---
 
 # Technical Deep Dive
-
-
 
 ## Agenda
 * ### [Demo](/docs/projects/1:%20Web%20Development/Directsystems.io/demo)

@@ -7,11 +7,13 @@ tags: [Cybersecurity, Python, Bruteforce]
 # Demo
 
 
-creates an undetectable processmanager.txt file and writes all the inputted keystrokes to the file
+creates an processmanager.txt file and writes all the inputted keystrokes from the target to the processmaneger.txt file
 
 ## Video
 
 ## Code
+
+Click [here](https://github.com/mherzog4/Login-bruteforcer) to see the code on github.
 
 <hr></hr>
 

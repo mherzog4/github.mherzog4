@@ -10,6 +10,7 @@ tags: [Python, Twitter, API]
 
 ## Code
 
+Click [here](https://github.com/mherzog4/twitterbot) to see the code on github.
 
 <hr></hr>
 

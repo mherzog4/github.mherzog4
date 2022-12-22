@@ -10,9 +10,7 @@ Here is a quick demo of my website Directsystems.io.
 
 ## Code
 
-
-Here is the code for the project
-
+Click [here](https://github.com/mherzog4/directsystems.io) to see the code on github.
 
 
 
