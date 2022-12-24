@@ -8,7 +8,7 @@ tags: [Python, Pandas, Matplotlib, Data Analysis]
 
 The biggest issue I ran into was configuring my Anaconda environment.
 
-But after 5-10 minutes going through the docs I was able to get the configuration up and running.
+But after 10-20 minutes going through the docs I was able to get the configuration up and running.
 
 <hr></hr>
 

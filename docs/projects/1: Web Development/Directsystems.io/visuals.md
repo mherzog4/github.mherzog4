@@ -6,6 +6,8 @@ tags: [Next, Tailwind, Vite, Jest, Cypress]
 
 # Visuals
 
+<!-- Insert lucid chart of information flow from Next app to different components -->
+
 <hr></hr>
 
 <a href="https://calendly.com/mattherzog/business-chat" target="_blank"><b><u>Hire me</u></b></a>

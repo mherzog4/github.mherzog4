@@ -17,6 +17,8 @@ tags: [Python, Pandas, Matplotlib, Data Analysis]
 * ###  [Troubleshooting](/docs/projects/1:%20Web%20Development/MLB%20Pitchers%20Data%20Analysis/troubleshooting)
 * ###  [Retrospective](/docs/projects/1:%20Web%20Development/MLB%20Pitchers%20Data%20Analysis/retrospective)
 
+Last contributed 12/23/2022
+
 
 <hr></hr>
 

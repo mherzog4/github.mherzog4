@@ -17,6 +17,8 @@ tags: [Python, Web Scraping, Beautiful Soup]
 * ###  [Troubleshooting](/docs/projects/1:%20Web%20Development/Hackernews%20Webscraper/troubleshooting)
 * ###  [Retrospective](/docs/projects/1:%20Web%20Development/Hackernews%20Webscraper/retrospective)
 
+Last contributed 12/23/2022
+
 
 <hr></hr>
 

@@ -6,9 +6,13 @@ tags: [Python, Web Scraping, Beautiful Soup]
 
 # Trade-offs
 
-- Pupperteer
-- Javascript for webscraping
-- Node
+## BeautifulSoup
+
+I decided to use BeatufulSoup over tools like Puppeteer because BeatifulSoup seems like to go to library for developing web scraping functionality with Python.
+
+## Python
+
+I decided to use Python instead of JavaScript/Node to gain familiarity with Python's functionality and syntax since my coding bootcamp didn't touch Python.
 
 
 <hr></hr>

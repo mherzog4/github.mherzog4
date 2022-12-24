@@ -4,9 +4,11 @@ tags: [Next, Tailwind, Vite, Jest, Cypress]
 ---
 
 # Demo
+
+A marketing website for my consulting/freelancing business Directsystems.io
 ## Video
 
-Here is a quick demo of my website Directsystems.io.
+
 
 ## Code
 

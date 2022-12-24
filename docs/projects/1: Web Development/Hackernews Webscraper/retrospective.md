@@ -6,9 +6,9 @@ tags: [Python, Web Scraping, Beautiful Soup]
 
 # Retrospective
 
-This was a fairly simple project that was a great way to crack into Python.
+I felt like this project was a great way to crack into Python.
 
-My software engineering bootcamp did not cover Python and I thought that the syntax read similiar to english.
+My software engineering bootcamp did not cover Python and I thought that the syntax read similar to english.
 
 I am going to add web scraping into more complex features.
 

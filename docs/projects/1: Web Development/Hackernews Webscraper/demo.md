@@ -6,6 +6,7 @@ tags: [Python, Web Scraping, Beautiful Soup]
 
 # Demo
 
+A CLI that scrapes that posts with over 99 votes on the hackernews website
 ## Video
 
 ## Code

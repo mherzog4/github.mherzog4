@@ -6,19 +6,19 @@ tags: [Next, Tailwind, Vite, Jest, Cypress]
 
 # Techstack
 
-## Client
+## Frontend
+
 - Next.js
 - Tailwind
 
-## Server
-- Node.js
 ## Other
+
 - Vite - Build tool
-- Jest - for Unit testing
-- Cyoress - for End-to-End tests
-- Vercel - for deployment
-- prettier - code formatter
-- esling - code linter support
+- Jest - Unit testing
+- Cypress - End-to-End tests
+- Vercel - deployment
+- Prettier - code formatter
+- Eslint - code linter support
 
 <hr></hr>
 

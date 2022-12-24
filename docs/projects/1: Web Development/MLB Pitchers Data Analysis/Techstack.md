@@ -9,6 +9,7 @@ tags: [Python, Pandas, Matplotlib, Data Analysis]
 - Python
 - Pandas
 - Matplotlib
+- Numpy
 - CSV file format
 
 <hr></hr>

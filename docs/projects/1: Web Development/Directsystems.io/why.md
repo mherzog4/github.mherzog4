@@ -18,10 +18,10 @@ Code the website by using modern tools that speed up development.
 
 ## What I wanted to learn
 
-How to use Tailwind
-Explore the Vercel ecosystem
-How to write efficient tests using different tools
-Move away from CRA and into the Vite ecosystem.
+- How to use Tailwind
+- Explore the Vercel ecosystem
+- How to write efficient tests using different tools
+- Move away from CRA and into the Vite ecosystem.
 
 
 <hr></hr>

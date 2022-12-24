@@ -7,7 +7,8 @@ tags: [Python, Web Scraping, Beautiful Soup]
 # Techstack
 
 - Python
-- Beautiful Soup
+- BeautifulSoup
+
 
 
 <hr></hr>

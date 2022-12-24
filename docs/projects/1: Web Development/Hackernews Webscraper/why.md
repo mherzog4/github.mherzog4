@@ -8,14 +8,17 @@ tags: [Python, Web Scraping, Beautiful Soup]
 
 ## Problem
 
-I have seen many uses cases for Webscraping, so I wanted to have an intro to this tool to build more complext webscraping features in the future.
+I have seen many uses cases for web scraping, so I wanted to have an intro to this tool to build more complex scraping features in the future.
 
 ## Solution
 
+Utilize the Python library BeautifulSoup to scrape the Hackernews website to display data within the CLI environment.
+
 ## What I wanted to learn
 
-Webscraping
-Python syntax and functionality
+- Web scraping
+- Python syntax and functionality
+- BeautifulSoup
 
 <hr></hr>
 

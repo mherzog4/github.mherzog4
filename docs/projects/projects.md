@@ -10,11 +10,11 @@ In this section I go into details about the projects I have created.
 In each project overview you will be able to go to the hosted version of the project, detailed architecture, a video demo, and other detailed information.
 
 ## Web Development Projects
+
 * [Directsystems.io Website](/docs/projects/1:%20Web%20Development/Directsystems.io/projectoverview)
 * [Hackernews Webscraper](/docs/projects/1:%20Web%20Development/Hackernews%20Webscraper/projectoverview)
 * [MLB Pitcher Data Anlaysis](/docs/projects/1:%20Web%20Development/MLB%20Pitchers%20Data%20Analysis/projectoverview)
 * [Real Time Chat App](/docs/projects/1:%20Web%20Development/Real%20Time%20Chat%20App/projectoverview)
-* [Slack Bot](/docs/projects/1:%20Web%20Development/slack%20bot/projectoverview)
 * [Stripe App](/docs/projects/1:%20eb%20Development/stripe%20app/projectoverview)
 * [Twitter Profile Bot](/docs/projects/1:%20Web%20Development/Twitter%20Profile%20Bot/projectoverview)
 

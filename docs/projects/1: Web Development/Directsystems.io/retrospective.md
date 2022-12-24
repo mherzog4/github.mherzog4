@@ -8,7 +8,7 @@ tags: [Next, Tailwind, Vite, Jest, Cypress]
 
 This was a fairly simple website with not much functionality.
 
-But, I would like to add a login portal for clients that display dashboards and have a trello like project management system.
+I would like to add a login portal for clients that display dashboards and have a trello like project management system.
 
 <hr></hr>
 

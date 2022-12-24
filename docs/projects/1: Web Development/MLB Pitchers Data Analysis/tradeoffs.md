@@ -6,7 +6,13 @@ tags: [Python, Pandas, Matplotlib, Data Analysis]
 
 # Trade-offs
 
-No code tools like Tabluea or PowerBI
+## Matplotlib
+
+## CSV
+
+## Numpy
+
+## Pandas 
 
 
 
