@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <Layout
       title={`Matt Herzog `}
-      description="Description will go into a meta tag in <head />">
+      description="Matt Herzog Portfolio">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

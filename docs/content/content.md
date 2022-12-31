@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+description: Matt Herzog Social Media
+keywords: [Matt Herzog, Matt Herzog Linkedin, Matt Herzog Twitter]
 
 ---
 
