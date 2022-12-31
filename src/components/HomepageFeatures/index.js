@@ -1,6 +1,8 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import Layout from '@theme/Layout';
+import Head from '@docusaurus/Head';
 
 const FeatureList = [
   {
