@@ -137,7 +137,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Made by Matt Herzog🚀, Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Made by Matt Herzog🚀`,
       },
       prism: {
         theme: lightCodeTheme,
