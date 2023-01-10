@@ -13,7 +13,7 @@ const FeatureList = [
         I joined the team at Zealogics as a software engineer in january 2023.
  <br></br>
 <br></br>
-      I primarily work with React, Node, and PHP
+      I primarily work with React, Node, and PHP.
       </>
      
     ),
